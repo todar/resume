@@ -1,6 +1,11 @@
 import React from "react";
 import "./Sidebar.css";
 
+/**
+ * This will be a container for: about me, contact, and skills section.
+ *
+ * @author [Robert Todar](https://github.com/todar)
+ */
 function Sidebar() {
   return (
     <aside className="Sidebar">
