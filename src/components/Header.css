@@ -1,0 +1,14 @@
+.Header {
+}
+
+.Header-profile {
+  border-radius: 50%;
+}
+
+.Header-name {
+  margin: 0;
+}
+
+.Header-title {
+  margin: 0;
+}

@@ -1,8 +1,32 @@
+:root {
+  --react-blue: #61dafb;
+  --light-blue: rgb(121, 182, 242);
+  --mid-gray: #282c34;
+  --dark-gray: #20232a;
+  --font-gray: #999;
+  --page-padding: 10px;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background: rgb(247, 247, 247);
   box-sizing: border-box;
   font-size: 12px;
+}
+
+.light-blue {
+  color: var(--light-blue);
+}
+
+.title-light {
+  color: #282c34;
+}
+
+.white-text {
+  color: #ffffff;
 }

@@ -1,5 +1,8 @@
 import React from "react";
 import "./MainContent.css";
+import WorkExperience from "./WorkExperience";
+import WorkReferences from "./WorkReferences";
+import Accomplishments from "./Accomplishments";
 
 /**
  * This will be a container for: work experience, references, and acheivement section.
@@ -9,8 +12,9 @@ import "./MainContent.css";
 function MainContent() {
   return (
     <div className="MainContent">
-      <h2>Work Experence</h2>
-      <h3>Business Anaylist</h3>
+      <WorkExperience />
+      <WorkReferences />
+      <Accomplishments />
     </div>
   );
 }
