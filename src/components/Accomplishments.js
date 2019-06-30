@@ -4,12 +4,20 @@ function Accomplishments() {
   return (
     <div>
       <h2 className="title-light">Accomplishments</h2>
-      Developed tools and queries that helped increase audit findings by 7
-      million in the span of two years. Through automation, saving company over
-      7,000 working hours annually. Increased our second most profitable audit's
-      completion rate from 40% to 100% complete. Created a VBA distributable,
-      that collects analitics such as user and tool usage, as well as crash
-      reports.
+      <ul style={{ margin: "0 0 0 12px", padding: "0 4px" }}>
+        <li>
+          Self taught programmer. Learned from documentation, online videos, and
+          StackOverflow.
+        </li>
+        <li>
+          Certified in Robotic Process Automation through Automation Anywhere.
+        </li>
+        <li>
+          Developed tools and queries that have helped increase audit findings
+          by over 15 million.
+        </li>
+        <li>Saving over 12,000 work hours annually through automation.</li>
+      </ul>
     </div>
   );
 }

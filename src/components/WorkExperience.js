@@ -1,38 +1,78 @@
 import React from "react";
+import WorkExperienceJob from "./WorkExperienceJob";
+import albertsons from "./Albertsons-50x50.png";
+import saguaro from "./SaguaroLogo-50x50.PNG";
 
 function WorkExperience() {
   return (
     <div>
       <h2 className="title-light">Work Experence</h2>
-      <h3 className="title-light">Business Anaylist</h3>
-      <h4 className="title-light">Albertsons Companies</h4>
-      <p>
-        Allowance Audit Lead 2015 to Current Started off as an auditor in
-        allowance billing, and from being recognized for developing various
-        tools and queries, was promoted to Allowance Lead. Primary role has been
-        to brainstorm of new and different ways of improving audit procedures,
-        and looking for new ways of increasing audit findings. Have created over
-        thrity Excel VBA tools that have made auditing easier, faster, and more
-        effecient, by removing any unessisary maual tasks; making an easier
-        entry for new auditors at the same time. Responsible for finding over
-        seven million in audit findings, through automation. On top of that,
-        through tracking performance of all users, found to save the company
-        over seven thousand working hours annually.
-      </p>
 
-      <h3 className="title-light">Superintendent of Repairs</h3>
-      <h4 className="title-light">Saguaro Drywall</h4>
-      <p>
-        2012 to 2015 Started as a laborer, and through hard work, was able to
-        quickly advanced to becoming the lead superintendent in overlooking all
-        repair work. Was in charge over fifteen repairmen. Estimated and priced
-        jobs, maintained schedule with builders and repairmen, and walked all
-        jobs to maintain quality assurance with builders. Wrote contracts and
-        work authorizations for job sites. Worked together with builders and
-        homeowners to resolve any issues that came up. Delivered and picked up
-        material and equipment for repairmen to job sites. Maintained payroll
-        and time sheets.
-      </p>
+      <WorkExperienceJob
+        title="Business Anaylist"
+        company="Albertsons Companies"
+        timeframe="Dec 2015 - Present"
+        logo={albertsons}
+        alt="Albertsons Logo"
+      >
+        <p>
+          Started off as an auditor in allowance billing and from being
+          recognized for developing several tools and queries was ultimately
+          promoted to a Business Analyst position.
+        </p>
+        <p>
+          The primary role is to explore all areas and uncover processes that
+          are greatly in need of improvements or new implementations altogether.
+        </p>
+        <p>
+          Then responsible for then brainstorming for how these process should
+          look. This includes gathering information from the different business
+          users to gain a full understanding of all the downstream impact any
+          changes could make.
+        </p>
+        <p>
+          Finally, the bulk of the work is in the creation and development of
+          the software and queries that would actually implement these new
+          processes. This includes development, unit testing, deployment, and
+          tracking analytics.
+        </p>
+      </WorkExperienceJob>
+
+      <WorkExperienceJob
+        title="Superintendent of Repairs"
+        company="Saguaro Drywall"
+        timeframe="2013 - 2015"
+        logo={saguaro}
+        alt="Saguaro Drywall Logo"
+      >
+        <p>
+          Started as a laborer and through diligence and hard work was able to
+          quickly advanced in becoming the lead superintendent in charge of all
+          of the drywall repair team.
+        </p>
+        <p>
+          Was in charge of estimating job costs and writing up customer
+          contracts for all repair work including our high-end custom
+          residential homes.
+        </p>
+        <p>
+          Was Responsible for creating and maintaining schedules for all our
+          current and upcoming job sites while keeping an open line of
+          communication with builders, homeowners, and our repairmen through the
+          entire process. This open communication was especially critical to
+          have when issues came up that needed to be resolved.
+        </p>
+        <p>
+          Visited and inspected all job sites to maintain our high level of
+          quality assurance with all our work, this to ensure that our companies
+          reputation stayed high.
+        </p>
+        <p>
+          First started to learn development in this company by creating a
+          database for our job site information and created a scheduler
+          application using Visual Basic for Applications in Excel.
+        </p>
+      </WorkExperienceJob>
     </div>
   );
 }

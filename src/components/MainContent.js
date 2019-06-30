@@ -13,7 +13,9 @@ function MainContent() {
   return (
     <div className="MainContent">
       <WorkExperience />
+      <hr />
       <WorkReferences />
+      <hr />
       <Accomplishments />
     </div>
   );

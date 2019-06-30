@@ -1,29 +1,30 @@
 import React from "react";
+import WorkReferenceContact from "./WorkReferenceContact";
 
 function WorkReferences() {
   return (
     <div>
       <h2 className="title-light">REFERENCES</h2>
-      <div>
-        <h3>Greg Rousseau</h3>
-        <h4>Group VP National Service Center at Albertsons Companies</h4>
-        <p>greg.rousseau@salbertsons.com</p>
-      </div>
-      <div>
-        <h3>Tracey Schmitz</h3>
-        <h4>Director at Albertsons Companies</h4>
-        <p>tracey.schmitz@albertsons.com</p>
-      </div>
-      <div>
-        <h3>David Lehn</h3>
-        <h4>Manager of Allowance Audit at Albertsons Companies</h4>
-        <p>david.lehn@albertsons.com</p>
-      </div>
-      <div>
-        <h3>Amber Pampas</h3>
-        <h4>Director at Saguaro Drywall</h4>
-        <p>amber.pampas@saguharo.com</p>
-      </div>
+      <WorkReferenceContact
+        name="Greg Rousseau"
+        title="Group VP National Service Center at Albertsons Companies"
+        email="greg.rousseau@salbertsons.com"
+      />
+      <WorkReferenceContact
+        name="Tracey Schmitz"
+        title="Director of Allowance Billing at Albertsons Companies"
+        email="tracey.schmitz@albertsons.com"
+      />
+      <WorkReferenceContact
+        name="David Lehn"
+        title="Manager of Allowance Audit at Albertsons Companies"
+        email="david.lehn@albertsons.com"
+      />
+      <WorkReferenceContact
+        name="Amber Pampas"
+        title="Director at Saguaro Drywall"
+        email="amber.pampas@saguharo.com"
+      />
     </div>
   );
 }
