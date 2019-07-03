@@ -1,0 +1,18 @@
+.Accomplishments > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Accomplishments > ul > li {
+  padding: 2px 0;
+}
+
+.Accomplishments > ul > li::before {
+  content: "\2022";
+  color: rgb(121, 182, 242); /* or whatever color you prefer */
+  display: inline-block;
+  width: 1em;
+  font-weight: bold;
+  margin-left: -1em;
+}

@@ -6,12 +6,12 @@ function WorkExperienceJob({ logo, alt, title, company, timeframe, children }) {
     <div className="WorkExperienceJob">
       <div className="WorkExperienceJob-header">
         <div>
+          <img className="WorkExperienceJob-logo" src={logo} alt={alt} />
+        </div>
+        <div>
           <h3 className="WorkExperienceJob-title">{title}</h3>
           <h4 className="WorkExperienceJob-company">{company}</h4>
           <h5 className="WorkExperienceJob-timeframe">{timeframe}</h5>
-        </div>
-        <div>
-          <img src={logo} alt={alt} />
         </div>
       </div>
       {children}

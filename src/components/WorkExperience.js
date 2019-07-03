@@ -1,11 +1,12 @@
 import React from "react";
+import "./WorkExperience.css";
 import WorkExperienceJob from "./WorkExperienceJob";
 import albertsons from "./Albertsons-50x50.png";
 import saguaro from "./SaguaroLogo-50x50.PNG";
 
 function WorkExperience() {
   return (
-    <div>
+    <div className="">
       <h2 className="title-light">Work Experence</h2>
 
       <WorkExperienceJob
@@ -15,7 +16,7 @@ function WorkExperience() {
         logo={albertsons}
         alt="Albertsons Logo"
       >
-        <p>
+        <p className="WorkExperience-first-paragraph">
           Started off as an auditor in allowance billing and from being
           recognized for developing several tools and queries was ultimately
           promoted to a Business Analyst position.
@@ -25,16 +26,17 @@ function WorkExperience() {
           are greatly in need of improvements or new implementations altogether.
         </p>
         <p>
-          Then responsible for then brainstorming for how these process should
-          look. This includes gathering information from the different business
-          users to gain a full understanding of all the downstream impact any
-          changes could make.
+          Then responsible for then brainstorming how these process should look.
+          This includes gathering information from the different business users
+          to gain a full understanding of all the downstream impact any changes
+          could make.
         </p>
-        <p>
+        <p className="WorkExperience-last-paragraph">
           Finally, the bulk of the work is in the creation and development of
           the software and queries that would actually implement these new
-          processes. This includes development, unit testing, deployment, and
-          tracking analytics.
+          processes. This includes development, unit testing, deployment, as
+          well as tracking analytics to gain insights on the return on
+          investment.
         </p>
       </WorkExperienceJob>
 
@@ -45,7 +47,7 @@ function WorkExperience() {
         logo={saguaro}
         alt="Saguaro Drywall Logo"
       >
-        <p>
+        <p className="WorkExperience-first-paragraph">
           Started as a laborer and through diligence and hard work was able to
           quickly advanced in becoming the lead superintendent in charge of all
           of the drywall repair team.
