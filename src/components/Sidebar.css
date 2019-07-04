@@ -10,3 +10,9 @@
 .Sidebar hr {
   border: 0.5px solid #999;
 }
+
+@media print {
+  .Sidebar {
+    padding: 34px;
+  }
+}
