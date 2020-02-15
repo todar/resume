@@ -18,12 +18,16 @@ const ContactName = styled.h3`
 const ContactTitle = styled.h4`
   font-weight: 400;
 `
+const Company = styled.h4`
+  font-weight: 400;
+`
 
-function WorkReferenceContact({ name, title, email }) {
+function WorkReferenceContact({ name, title, email, company }) {
   return (
     <ContactSection>
       <ContactName>{name}</ContactName>
-      <ContactTitle >{title}</ContactTitle>
+      <ContactTitle>{title}</ContactTitle>
+      <Company>{company}</Company>
       <p>{email}</p>
     </ContactSection>
   );
