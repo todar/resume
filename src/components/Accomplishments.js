@@ -1,11 +1,32 @@
 import React from "react";
-import "./Accomplishments.css";
+import styled from "styled-components"
+
+
+const List = styled.div`
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 12px;
+  padding: 0 4px;
+
+  &li {
+    padding: 2px 0;
+  }
+
+  &li:before {
+    content: "\2022";
+    color: rgb(121, 182, 242); /* or whatever color you prefer */
+    display: inline-block;
+    width: 1em;
+    font-weight: bold;
+    margin-left: -1em;
+  }
+`
 
 function Accomplishments() {
   return (
-    <div className="Accomplishments">
+    <div>
       <h2 className="title-light">Accomplishments</h2>
-      <ul style={{ margin: "0 0 0 12px", padding: "0 4px" }}>
+      <List>
         <li>
           Self taught programmer. Learned from documentation, online videos, and
           StackOverflow.
@@ -18,7 +39,7 @@ function Accomplishments() {
           by over 15 million.
         </li>
         <li>Annually saving over 12,000 work hours through automation.</li>
-      </ul>
+      </List>
     </div>
   );
 }

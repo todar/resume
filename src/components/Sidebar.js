@@ -1,10 +1,26 @@
 import React from "react";
+import styled from "styled-components"
 import Header from "./Header";
 import About from "./About";
 import Connect from "./Connect";
 import Skills from "./Skills";
 
-import "./Sidebar.css";
+const StyledSidebar = styled.aside`
+    background-color: #282c34;
+    color: #999;
+    height: calc(100% - 50px);
+    text-align: center;
+    width: 200px;
+    padding: 25px;
+
+    &hr {
+      border: 0.5px solid #999;
+    }
+
+    @media print {
+      padding: 34px;
+    }
+`
 
 /**
  * This will be a container for: about me, connect, and skills section.
@@ -13,7 +29,7 @@ import "./Sidebar.css";
  */
 function Sidebar() {
   return (
-    <aside className="Sidebar">
+    <StyledSidebar >
       <Header />
       <hr />
       <About />
@@ -21,7 +37,7 @@ function Sidebar() {
       <Connect />
       <hr />
       <Skills />
-    </aside>
+    </StyledSidebar>
   );
 }
 

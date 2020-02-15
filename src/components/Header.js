@@ -1,13 +1,26 @@
 import React from "react";
-import "./Header.css";
-import profile from "./profile-200x200.jpg";
+import styled from "styled-components";
+import profile from "../images/profile-200x200.jpg";
+
+const ProfileImage = styled.img`
+  border-radius: 50%;
+`
+
+const Name = styled.h1`
+  margin: 0;
+  color: #fff;
+`
+const Title = styled.h3`
+  margin: 0;
+  color: #fff;
+`
 
 function Header() {
   return (
-    <div className="Header">
-      <img className="Header-profile" src={profile} alt="profile" />
-      <h1 className="Header-name white-text">Robert Todar</h1>
-      <h3 className="Header-title">Developer</h3>
+    <div>
+      <ProfileImage  src={profile} alt="profile" />
+      <Name>Robert Todar</Name>
+      <Title className="Header-title">Developer</Title>
     </div>
   );
 }
