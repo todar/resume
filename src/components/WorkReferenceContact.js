@@ -1,14 +1,31 @@
 import React from "react";
+import styled from "styled-components"
 import PropTypes from "prop-types";
-import "./WorkReferenceContact.css";
+
+const ContactSection = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+
+    & > * {
+      margin: 0;
+    }
+`
+
+const ContactName = styled.h3`
+  font-weight: 500;
+`
+const ContactTitle = styled.h4`
+  font-weight: 400;
+`
 
 function WorkReferenceContact({ name, title, email }) {
   return (
-    <div className="WorkReferenceContact">
-      <h3 className="WorkReferenceContact-name">{name}</h3>
-      <h4 className="WorkReferenceContact-title">{title}</h4>
-      <p className="WorkReferenceContact-email">{email}</p>
-    </div>
+    <ContactSection>
+      <ContactName>{name}</ContactName>
+      <ContactTitle >{title}</ContactTitle>
+      <p>{email}</p>
+    </ContactSection>
   );
 }
 

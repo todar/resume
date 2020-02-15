@@ -1,17 +1,21 @@
 import React from "react";
-import "./Skills.css";
+import styled from "styled-components"
+
+const Content = styled.p`
+  margin: 8px;
+`
 
 function Skills() {
   return (
-    <div className="Skills">
+    <div>
       <h2>Skills</h2>
-      <p>VBA</p>
-      <p>SQL</p>
-      <p>RPA</p>
-      <p>HTML</p>
-      <p>CSS</p>
-      <p>JavaScript</p>
-      <p>ReactJs</p>
+      <Content>VBA</Content>
+      <Content>SQL</Content>
+      <Content>RPA</Content>
+      <Content>HTML</Content>
+      <Content>CSS</Content>
+      <Content>JavaScript</Content>
+      <Content>ReactJs</Content>
     </div>
   );
 }

@@ -1,14 +1,12 @@
 import React from "react";
-import "./WorkExperience.css";
 import WorkExperienceJob from "./WorkExperienceJob";
-import albertsons from "./Albertsons-50x50.png";
-import saguaro from "./SaguaroLogo-50x50.PNG";
+import albertsons from "../images/Albertsons-50x50.png";
+import saguaro from "../images/SaguaroLogo-50x50.PNG";
 
 function WorkExperience() {
   return (
-    <div className="">
+    <div>
       <h2 className="title-light">Work Experence</h2>
-
       <WorkExperienceJob
         title="Business Anaylist"
         company="Albertsons Companies"
@@ -16,7 +14,7 @@ function WorkExperience() {
         logo={albertsons}
         alt="Albertsons Logo"
       >
-        <p className="WorkExperience-first-paragraph">
+        <p>
           Started off as an auditor in allowance billing and from being
           recognized for developing several tools and queries was ultimately
           promoted to a Business Analyst position.
@@ -31,7 +29,7 @@ function WorkExperience() {
           to gain a full understanding of all the downstream impact any changes
           could make.
         </p>
-        <p className="WorkExperience-last-paragraph">
+        <p>
           Finally, the bulk of the work is in the creation and development of
           the software and queries that would actually implement these new
           processes. This includes development, unit testing, deployment, as
@@ -47,7 +45,7 @@ function WorkExperience() {
         logo={saguaro}
         alt="Saguaro Drywall Logo"
       >
-        <p className="WorkExperience-first-paragraph">
+        <p>
           Started as a laborer and through diligence and hard work was able to
           quickly advanced in becoming the lead superintendent in charge of all
           of the drywall repair team.
