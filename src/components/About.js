@@ -12,9 +12,7 @@ function About() {
       </p>
       <p>
         First language learned was VBA and has been the primary language used
-        over the last five years. Also, have written SQL extensively in DB2. In
-        the last two years have been self-learning web development in the
-        pursuit of becoming a full-time programmer.
+        over the last five years. Also, have written SQL primaraly in DB2. But where I have found the most enjoyment has been learning and practicing web development.
       </p>
     </div>
   );

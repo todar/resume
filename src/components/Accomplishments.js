@@ -34,11 +34,6 @@ function Accomplishments() {
         <li>
           Certified in Robotic Process Automation through Automation Anywhere.
         </li>
-        <li>
-          Developed tools and queries that have helped increase audit findings
-          by over 15 million.
-        </li>
-        <li>Annually saving over 12,000 work hours through automation.</li>
       </List>
     </div>
   );
