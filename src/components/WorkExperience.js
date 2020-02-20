@@ -20,7 +20,8 @@ function WorkExperience() {
           <ul>
             <li>Systems analysis - exploring company systems and infrastructure to uncover inefficiencies. My personal analyses has identified and reduced 46,000 labor hours annually, or roughly $1,387,727 in annual savings.</li>
             <li>Process improvement - building appropriate tools and alternative workflows to reduce waste. I have personally saved the company $20 million since I began in December 2015.</li>
-            <li>Overhaul - when it makes sense for the business, I interview primary stakeholders, conceptualize the primary goal and re-envision the roadmap to accomplishing the task. As an example, I’ve developed, tested, deployed, and continued to track analytics to gain insights on vendor cost allowances. This project alone has saved the company over 70,000 labor hours and has increased audit findings by more than 60%.</li>
+            <li>Overhaul - when it makes sense for the business, I interview primary stakeholders, conceptualize the primary goal and re-envision the roadmap to accomplishing the task. As an example, I’ve developed, tested, deployed, and continued to track analytics to gain insights on vendor cost allowances. This project alone has saved the company over 70,000 labor hours and has increased audit findings in this area by more than 60%.</li>
+            <li>Integration - recently, I was tasked as lead of systems integration for moving all our finacial data and workflow from a legacy Lawson system into the Oracle cloud environment.</li>
           </ul>
         </ul>
       </WorkExperienceJob>
@@ -37,12 +38,12 @@ function WorkExperience() {
           <li>Quickly advanced to lead superintendent in charge of all of the drywall repair team.</li>
           <li>Responsibilities included:</li>
           <ul>
-            <li>Cost estimation</li>
-            <li>Contract writing</li>
+            <li>Cost estimation.</li>
+            <li>Contract writing.</li>
             <li>Review of all repair work including high net-worth, custom residential clients.</li>
-            <li>Creating and maintaining jobsite scheduling</li>
-            <li>Facilitating communications between clients and crew for time-critical situations</li>
-            <li>Job site inspection to maintain high quality assurance </li>
+            <li>Creating and maintaining jobsite scheduling.</li>
+            <li>Facilitating communications between clients and crew for time-critical situations.</li>
+            <li>Job site inspection to maintain high quality assurance.</li>
           </ul>
           <li>Discovered my love for software development by creating database for job site information and created a scheduling application using Visual Basic for Applications in Excel.</li>
         </ul>

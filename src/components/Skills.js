@@ -9,13 +9,13 @@ function Skills() {
   return (
     <div>
       <h2>Skills</h2>
-      <Content>VBA</Content>
-      <Content>SQL</Content>
-      <Content>RPA</Content>
+      <Content>ReactJs</Content>
       <Content>HTML</Content>
       <Content>CSS</Content>
       <Content>JavaScript</Content>
-      <Content>ReactJs</Content>
+      <Content>VBA</Content>
+      <Content>SQL</Content>
+      <Content>RPA</Content>
     </div>
   );
 }

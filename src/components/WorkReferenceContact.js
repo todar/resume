@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const ContactSection = styled.div`
     display: flex;
     flex-direction: column;
-    margin: 12px 0;
+    margin: 0;
 
     & > * {
       margin: 0;
