@@ -1,6 +1,7 @@
 import React from "react";
 import Sidebar from "./components/Sidebar"
-import { PDFViewer, Document, Page, View, StyleSheet } from "@react-pdf/renderer";
+import Main from "./components/Main"
+import { PDFViewer, Document, Page, StyleSheet } from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
   page: {
@@ -20,9 +21,7 @@ const App = () => (
     <Document>
       <Page size="A4" style={styles.page}>
         <Sidebar />
-        <View style={styles.section}>
-
-        </View>
+        <Main />
       </Page>
     </Document>
   </PDFViewer>
