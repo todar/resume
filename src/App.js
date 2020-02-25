@@ -1,23 +1,31 @@
 import React from "react";
-import Page from "./components/Page";
-import Sidebar from "./components/Sidebar";
-import MainContent from "./components/MainContent";
+import Sidebar from "./components/Sidebar"
+import { PDFViewer, Document, Page, View, StyleSheet } from "@react-pdf/renderer";
 
-/**
- * My own personal resume.
- * This is not mobile-friendly since the `Page` component is a fixed size.
- * I might consider changing that down the road...
- *
- * @author [Robert Todar](https://github.com/todar)
- * @example An old example can be found on [codepen](https://codepen.io/todar/pen/Epdvbw)
- */
-function App() {
-  return (
-    <Page>
-      <Sidebar />
-      <MainContent />
-    </Page>
-  );
-}
+const styles = StyleSheet.create({
+  page: {
+    flexDirection: "row"
+  },
+  section: {
+    flexGrow: 1
+  },
+  viewer: {
+    width: '100%',
+    height: '100vh'
+  }
+});
+
+const App = () => (
+  <PDFViewer style={styles.viewer}>
+    <Document>
+      <Page size="A4" style={styles.page}>
+        <Sidebar />
+        <View style={styles.section}>
+
+        </View>
+      </Page>
+    </Document>
+  </PDFViewer>
+);
 
 export default App;

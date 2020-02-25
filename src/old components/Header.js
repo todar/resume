@@ -18,7 +18,7 @@ const Title = styled.h3`
 function Header() {
   return (
     <div>
-      <ProfileImage  src={profile} alt="profile" />
+      <ProfileImage src={profile} alt="profile" />
       <Name>Robert Todar</Name>
       <Title className="Header-title">Developer</Title>
     </div>
