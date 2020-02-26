@@ -10,8 +10,6 @@ const styles = StyleSheet.create({
   }
 });
 
-const Divider = () => (
-  <View style={styles.divider} />
-);
+const Divider = () => <View style={styles.divider} />;
 
 export default Divider;

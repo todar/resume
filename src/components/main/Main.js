@@ -1,26 +1,25 @@
 import React from "react";
 import { Text, View, Image, StyleSheet } from "@react-pdf/renderer";
 
-import jobs from "../assets/jobs.png"
-import contacts from "../assets/contacts.png"
-import accomplishment from "../assets/accomplishment.png"
+import jobs from "../../assets/jobs.png";
+import contacts from "../../assets/contacts.png";
+import accomplishment from "../../assets/accomplishment.png";
 
-import Divider from "./Divider"
-import ListItem from './ListItem';
-import Reference from "./Reference"
-import Albertsons from "./Albertsons"
-import Saguaro from "./Saguaro"
+import Divider from "../Divider";
+import ListItem from "../ListItem";
+import Reference from "./Reference";
+import Albertsons from "./Albertsons";
+import Saguaro from "./Saguaro";
 
 const styles = StyleSheet.create({
   main: {
-    padding: '18px',
+    padding: "18px",
     flexBasis: "380px",
-    color: "#2a2b2e"
+    color: "#333"
   },
   mainTitle: {
     fontSize: 15,
-    color: '#2a2b2e',
-    // margin: '0 0 10px'
+    color: "#2a2b2e"
   },
   referenceGroup: {
     flexDirection: "row"
@@ -30,8 +29,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 10
   },
-  image: {
-    width: "15px",
+  logo: {
+    width: "20px",
+    height: "20px",
     marginRight: 5
   }
 });
@@ -39,18 +39,18 @@ const styles = StyleSheet.create({
 const WorkExperince = () => (
   <View>
     <View style={styles.titleGroup}>
-      <Image style={styles.image} src={jobs} alt="" />
+      <Image style={styles.logo} src={jobs} alt="" />
       <Text style={styles.mainTitle}>Work Experience</Text>
     </View>
     <Albertsons />
     <Saguaro />
   </View>
-)
+);
 
 const References = () => (
   <View>
     <View style={styles.titleGroup}>
-      <Image style={styles.image} src={contacts} alt="" />
+      <Image style={styles.logo} src={contacts} alt="" />
       <Text style={styles.mainTitle}>References</Text>
     </View>
     <View style={styles.referenceGroup}>
@@ -82,19 +82,23 @@ const References = () => (
       />
     </View>
   </View>
-)
+);
 
 const Accomplishments = () => (
   <View>
     <View style={styles.titleGroup}>
-      <Image style={styles.image} src={accomplishment} alt="" />
+      <Image style={styles.logo} src={accomplishment} alt="" />
       <Text style={styles.mainTitle}>Accomplishments</Text>
     </View>
-    <ListItem>Self taught programmer. Learned from documentation, online videos, and StackOverflow.
-</ListItem>
-    <ListItem>Certified in Robotic Process Automation through Automation Anywhere.</ListItem>
+    <ListItem>
+      Self taught programmer. Learned from documentation, online videos, and
+      StackOverflow.
+    </ListItem>
+    <ListItem>
+      Certified in Robotic Process Automation through Automation Anywhere.
+    </ListItem>
   </View>
-)
+);
 
 const Main = () => (
   <View style={styles.main}>

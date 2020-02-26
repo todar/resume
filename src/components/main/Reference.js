@@ -10,11 +10,11 @@ const styles = StyleSheet.create({
     marginBottom: 10
   },
   name: {
-    fontWeight: 'extraBold',
+    fontWeight: "extraBold",
     fontSize: 10,
-    color: '#000'
+    color: "#000"
   },
-  content: {},
+  content: {}
 });
 
 const Reference = ({ name, title, company, email }) => (
