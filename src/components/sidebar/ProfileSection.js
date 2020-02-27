@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
   name: {
     textAlign: "center",
     color: "#fff",
-    margin: "10px 0 2px"
+    margin: "8px 0 2px"
   },
   title: {
     textAlign: "center",
@@ -16,8 +16,8 @@ const styles = StyleSheet.create({
   },
   profileImage: {
     borderRadius: "500",
-    width: "135px",
-    height: "135px",
+    width: "130px",
+    height: "130px",
     margin: "auto"
   }
 });

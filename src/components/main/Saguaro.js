@@ -9,15 +9,15 @@ const Saguaro = () => (
     <JobHeader
       src={saguaroLogo}
       alt="Saguaro Drywall"
-      title="Superintendent of Repairs"
+      title="Superintendent"
       company="Saguaro Drywall"
       timeframe="2013 - 2015"
     />
     <View>
       <ListItem>Began as a laborer.</ListItem>
       <ListItem>
-        Quickly advanced to lead superintendent in charge of all of the drywall
-        repair team.
+        Quickly advanced to the lead superintendent in charge of all of the
+        drywall repair team.
       </ListItem>
       <ListItem>Responsibilities included:</ListItem>
       <View>
@@ -28,20 +28,20 @@ const Saguaro = () => (
           clients.
         </NestedListItem>
         <NestedListItem>
-          Creating and maintaining jobsite scheduling.
+          Creating and maintaining job site scheduling.
         </NestedListItem>
         <NestedListItem>
           Facilitating communications between clients and crew for time-critical
           situations.
         </NestedListItem>
         <NestedListItem>
-          Job site inspection to maintain high quality assurance.
+          Job site inspection to maintain high-quality assurance.
         </NestedListItem>
       </View>
       <ListItem>
-        Discovered my love for software development by creating database for job
-        site information and created a scheduling application using Visual Basic
-        for Applications in Excel.
+        Discovered my love for software development by creating a database for
+        job site information and created a scheduling application using Visual
+        Basic for Applications in Excel.
       </ListItem>
     </View>
   </View>

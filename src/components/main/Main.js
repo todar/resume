@@ -11,6 +11,11 @@ import Reference from "./Reference";
 import Albertsons from "./Albertsons";
 import Saguaro from "./Saguaro";
 
+/**
+ * Yikes, a bit a a mess!😞
+ * This is all here, but need to refactor and get this code looking good!
+ * Really this file just contains several components that need to be in their own file.
+ */
 const styles = StyleSheet.create({
   main: {
     padding: "18px",
@@ -91,11 +96,17 @@ const Accomplishments = () => (
       <Text style={styles.mainTitle}>Accomplishments</Text>
     </View>
     <ListItem>
-      Self taught programmer. Learned from documentation, online videos, and
-      StackOverflow.
+      Self taught programmer and web developer. Learned from documentation,
+      online videos, and StackOverflow.
     </ListItem>
     <ListItem>
       Certified in Robotic Process Automation through Automation Anywhere.
+    </ListItem>
+    <ListItem>
+      Created a full application toolset within VBA, that has custom built
+      version control, distribution system, code usage anylitics tracking, event
+      logging, data caching, with full CRUD capibilities to multiple data
+      sources.
     </ListItem>
   </View>
 );

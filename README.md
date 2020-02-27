@@ -1,12 +1,8 @@
 # Resume
 
-I'm working on my resume and thought why not do it using React!
+I'm working on my resume and thought why not do it using React?
 
+## Tools and Resources
 
-<a target="_blank" href="https://icons8.com/icons/set/user-location">User Location icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-
-<a target="_blank" href="https://icons8.com/icons/set/phone">Phone icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-
-<a target="_blank" href="https://icons8.com/icons/set/job">Job icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-
-<a target="_blank" href="https://icons8.com/icons/set/contacts">Contacts icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- [react-pdf/renderer](https://www.npmjs.com/package/@react-pdf/renderer) - A clean way of getting quality pdf vs standard html.
+- [icons8](https://icons8.com/icons/wired) - A collection of cute outlined icons. Very cool style (I might have to use this for other things 🤔)

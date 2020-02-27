@@ -9,7 +9,7 @@ const Albertsons = () => (
     <JobHeader
       src={albertsonsLogo}
       atl="Albertsons"
-      title="Business Anaylist"
+      title="Business Analyst"
       company="Albertsons"
       timeframe="Dec 2015 - Present"
     />
@@ -22,18 +22,18 @@ const Albertsons = () => (
       <View>
         <NestedListItem>
           Systems analysis - exploring company systems and infrastructure to
-          uncover inefficiencies. My personal analyses has identified and
-          reduced 46,000 labor hours annually, or roughly $1,387,727 in annual
-          savings.
+          uncover inefficiencies. My analyses and application development have
+          helped identified and reduced over 46,000 labor hours annually.
         </NestedListItem>
         <NestedListItem>
           Process improvement - building appropriate tools and alternative
-          workflows to reduce waste. I have personally saved the company $20
-          million since I began in December 2015.
+          workflows to reduce waste. I have personally helped recover the
+          company over $20 million in Audit findings since I began in December
+          2015.
         </NestedListItem>
         <NestedListItem>
           Overhaul - when it makes sense for the business, I interview primary
-          stakeholders, onceptualize the primary goal and re-envision the
+          stakeholders, conceptualize the primary goal and re-envision the
           roadmap to accomplishing the task. As an example, I’ve developed,
           tested, deployed, and continued to track analytics to gain insights on
           vendor cost allowances. This project alone has saved the company over
@@ -41,9 +41,9 @@ const Albertsons = () => (
           area by more than 60%.
         </NestedListItem>
         <NestedListItem>
-          Integration - recently, I was tasked as lead of systems integration
-          for moving all our finacial data and workflow from a legacy Lawson
-          system into the Oracle cloud environment.
+          Integration - recently, I was tasked as the lead of systems
+          integration for moving all our financial data and workflow from a
+          legacy Lawson system into the Oracle cloud environment.
         </NestedListItem>
       </View>
     </View>

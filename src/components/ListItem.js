@@ -18,10 +18,11 @@ const styles = StyleSheet.create({
     color: "#333"
   },
   content: {
-    fontSize: 10,
+    fontSize: 9,
     fontWeight: "light",
     color: "#333",
-    lineHeight: 1.2
+    lineHeight: 1.3,
+    marginBottom: 1
   },
   nestedItem: {
     flexDirection: "row",
