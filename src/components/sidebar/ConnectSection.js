@@ -31,10 +31,12 @@ const Icon = ({ src }) => (
 );
 
 const ConnectSection = () => {
-  const { location, phoneNumber, email, website } = useContent();
+  const {
+    connectSection: { title, location, phoneNumber, email, website }
+  } = useContent();
   return (
     <View>
-      <SectionTitle>Connect</SectionTitle>
+      <SectionTitle>{title}</SectionTitle>
       <Icon src={locationIcon} />
       <Content>{location}</Content>
       <Icon src={phoneIcon} />

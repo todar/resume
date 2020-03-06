@@ -5,11 +5,13 @@ import { useContent } from "../../content";
 import { View } from "@react-pdf/renderer";
 
 const AboutSection = () => {
-  const { about } = useContent();
+  const {
+    aboutSection: { title, content }
+  } = useContent();
   return (
     <View>
-      <SectionTitle>About</SectionTitle>
-      <Content>{about}</Content>
+      <SectionTitle>{title}</SectionTitle>
+      <Content>{content}</Content>
     </View>
   );
 };

@@ -23,7 +23,9 @@ const styles = StyleSheet.create({
 });
 
 const ProfileSection = () => {
-  const { name, title } = useContent();
+  const {
+    profileSection: { name, title }
+  } = useContent();
   return (
     <View>
       <Image style={styles.profileImage} src={Profile} alt="Profile" />

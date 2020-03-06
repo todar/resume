@@ -5,10 +5,12 @@ import { useContent } from "../../content";
 import { View } from "@react-pdf/renderer";
 
 const SkillsSection = () => {
-  const { skills } = useContent();
+  const {
+    skillsSection: { title, skills }
+  } = useContent();
   return (
     <View>
-      <SectionTitle>Skills</SectionTitle>
+      <SectionTitle>{title}</SectionTitle>
       {skills.map(skill => (
         <Content key={skill}>{skill}</Content>
       ))}
