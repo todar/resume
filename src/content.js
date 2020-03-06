@@ -5,7 +5,10 @@ const content = {
   },
   aboutSection: {
     title: "About",
-    content: `Have always enjoyed learning and having the ability to build new things from the ground up. Previously pursued that desire through construction; however, in 2015, I began to learn how to program and found it to fulfill those desires to an even greater level.
+    content: `Motivated self-learner and skilled progammer with five years of professional experience. Proficient in multiple programming lanaguages and expeirence in website development.
+    
+    Three years of experience in developing ReactJS apps with knowledge in: hooks, context, reducers, create-react-app, react router, NextJs, Material-UI, and styled components.`,
+    contentArchive: `Have always enjoyed learning and having the ability to build new things from the ground up. Previously pursued that desire through construction; however, in 2015, I began to learn how to program and found it to fulfill those desires to an even greater level.
 
     The first language learned was VBA and has been the primary language used in my career over the last five years, along with a a great deal of SQL. But where I have found the most enjoyment has been learning and practicing web development for the last three years.`
   },
@@ -18,7 +21,17 @@ const content = {
   },
   skillsSection: {
     title: "Skills",
-    skills: ["ReactJs", "HTML", "CSS", "Javascript", "VBA", "SQL", "RPA"]
+    skills: [
+      "React",
+      "JavaScript ES6",
+      "TypeScript",
+      "HTML 5",
+      "CSS 3",
+      "SQL",
+      "Sass",
+      "Git",
+      "npm"
+    ]
   },
   workExperience: {
     title: "Work Experience",
