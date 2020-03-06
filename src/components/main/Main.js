@@ -96,17 +96,23 @@ const Accomplishments = () => (
       <Text style={styles.mainTitle}>Accomplishments</Text>
     </View>
     <ListItem>
-      Self taught programmer and web developer. Learned from documentation,
-      online videos, and StackOverflow.
+      Self taught programmer and web developer. Learned from online
+      documentation, videos, and being an active participant on Stack Overflow.
+    </ListItem>
+    <ListItem>
+      Created a full software application within VBA, that has custom-built in
+      version control, distribution system, user analytics, event logging, data
+      caching, and full CRUD capabilities to multiple data sources.
+    </ListItem>
+    <ListItem>
+      Developed software tools that are saving over 46,000 labor hours annually.
+    </ListItem>
+    <ListItem>
+      Major contributor in increasing allowance audit findings by millions of
+      dollars each year.
     </ListItem>
     <ListItem>
       Certified in Robotic Process Automation through Automation Anywhere.
-    </ListItem>
-    <ListItem>
-      Created a full application toolset within VBA, that has custom built
-      version control, distribution system, code usage anylitics tracking, event
-      logging, data caching, with full CRUD capibilities to multiple data
-      sources.
     </ListItem>
   </View>
 );

@@ -25,34 +25,31 @@ const Albertsons = () => {
       <View>
         <ListItem>Began as an auditor in allowance billing.</ListItem>
         <ListItem>
-          Recognized for development of critical tools and queries and was
-          promoted to Business Analyst responsible for:
+          Recognized for the development of software applications and queries
+          that greatly increased audit findings and was promoted to Business
+          Analyst responsible for:
         </ListItem>
         <View>
           <NestedListItem>
-            Systems analysis - exploring company systems and infrastructure to
-            uncover inefficiencies. My analyses and application development have
-            helped identified and reduced over 46,000 labor hours annually.
+            Process analysis - identify the businesses needs and inefficiencies
+            and use critical thinking to come up with new strategic solutions
+            and document design plans for new process implementations.
           </NestedListItem>
           <NestedListItem>
-            Process improvement - building appropriate tools and alternative
-            workflows to reduce waste. I have personally helped recover the
-            company over $20 million in Audit findings since I began in December
-            2015.
+            Software development - develop software for data analytics,
+            dashboard reporting, and automation of manual tasks that are in
+            place due to legacy systems.
           </NestedListItem>
           <NestedListItem>
-            Overhaul - when it makes sense for the business, I interview primary
-            stakeholders, conceptualize the primary goal and re-envision the
-            roadmap to accomplishing the task. As an example, I’ve developed,
-            tested, deployed, and continued to track analytics to gain insights
-            on vendor cost allowances. This project alone has saved the company
-            over 70,000 labor hours and has helped increased audit findings in
-            this area by more than 60%.
+            Data analysis - explore large amounts of data and old queries to
+            find inconsistencies, gaps, and corruption and create solutions and
+            queries to extract the data for cleansing and consolidation for
+            auditing consumption.
           </NestedListItem>
           <NestedListItem>
-            Integration - recently, I was tasked as the lead of systems
-            integration for moving all our financial data and workflow from a
-            legacy Lawson system into the Oracle cloud environment.
+            Application integration - tasked as the lead of systems integration
+            for moving all financial data from a legacy system into the Oracle
+            cloud environment.
           </NestedListItem>
         </View>
       </View>

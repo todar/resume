@@ -14,18 +14,17 @@ const Saguaro = () => (
       timeframe="2013 - 2015"
     />
     <View>
-      <ListItem>Began as a laborer.</ListItem>
       <ListItem>
-        Quickly advanced to the lead superintendent in charge of all of the
-        drywall repair team.
+        Quickly advanced from a laborer to the lead superintendent in charge of
+        drywall repairs.
       </ListItem>
       <ListItem>Responsibilities included:</ListItem>
       <View>
         <NestedListItem>Cost estimation.</NestedListItem>
         <NestedListItem>Contract writing.</NestedListItem>
         <NestedListItem>
-          Review of all repair work including high net-worth, custom residential
-          clients.
+          Inspection of all repair work including high net-worth, custom
+          residential clients.
         </NestedListItem>
         <NestedListItem>
           Creating and maintaining job site scheduling.
@@ -34,14 +33,10 @@ const Saguaro = () => (
           Facilitating communications between clients and crew for time-critical
           situations.
         </NestedListItem>
-        <NestedListItem>
-          Job site inspection to maintain high-quality assurance.
-        </NestedListItem>
       </View>
       <ListItem>
-        Discovered my love for software development by creating a database for
-        job site information and created a scheduling application using Visual
-        Basic for Applications in Excel.
+        Created a job scheduling application using Visual Basic for Applications
+        that maintained job site information and repairman coverage.
       </ListItem>
     </View>
   </View>
