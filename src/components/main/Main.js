@@ -6,7 +6,7 @@ import contacts from "../../assets/contacts.png";
 import accomplishment from "../../assets/accomplishment.png";
 
 import Divider from "../Divider";
-import ListItem from "../ListItem";
+import ListItem, { NestedListItem } from "../ListItem";
 import Reference from "./Reference";
 import Albertsons from "./Albertsons";
 import Saguaro from "./Saguaro";
@@ -100,13 +100,16 @@ const Accomplishments = () => (
       documentation, videos, and being an active participant on Stack Overflow.
     </ListItem>
     <ListItem>
-      Created a full software application within VBA, that has custom-built in
-      version control, distribution system, user analytics, event logging, data
-      caching, and full CRUD capabilities to multiple data sources.
+      Created a full software application within VBA that has custom-built:
     </ListItem>
-    <ListItem>
-      Developed software tools that are saving over 46,000 labor hours annually.
-    </ListItem>
+    <NestedListItem>version control</NestedListItem>
+    <NestedListItem>distribution system</NestedListItem>
+    <NestedListItem>user analytics</NestedListItem>
+    <NestedListItem>event logging</NestedListItem>
+    <NestedListItem>data caching</NestedListItem>
+    <NestedListItem>
+      and full CRUD capabilities to multiple data sources
+    </NestedListItem>
     <ListItem>
       Major contributor in increasing allowance audit findings by millions of
       dollars each year.
@@ -121,9 +124,9 @@ const Main = () => (
   <View style={styles.main}>
     <WorkExperince />
     <Divider />
-    <References />
-    <Divider />
     <Accomplishments />
+    <Divider />
+    <References />
   </View>
 );
 

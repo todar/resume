@@ -1,3 +1,6 @@
+// This is a copy
+
+
 import React from "react";
 import { View } from "@react-pdf/renderer";
 import ListItem, { NestedListItem } from "../ListItem";
@@ -15,23 +18,24 @@ const Saguaro = () => (
     />
     <View>
       <ListItem>
-        Advanced from a laborer to the lead superintendent in charge of drywall
-        repairs.
+        Advanced from being a laborer to becoming the lead superintendent in
+        charge of drywall repairs.
       </ListItem>
-      <ListItem>Responsibilities included:</ListItem>
       <View>
-        <NestedListItem>Cost estimation.</NestedListItem>
-        <NestedListItem>Contract writing.</NestedListItem>
         <NestedListItem>
-          Inspection of all repair work including high net-worth, custom
-          residential clients.
+          Cost estimation - inspected new job sites to deterimine the expected
+          time, cost, materials, and labor needed. Wrote contacts for approval
+          from builders and home owners. These were mostly high net-worth,
+          custom residential clients.
+        </NestedListItem>
+
+        <NestedListItem>
+          Inspection - thoroughly walked all job sites to ensure a high quality
+          of repairwork and finishing.
         </NestedListItem>
         <NestedListItem>
-          Creating and maintaining job site scheduling.
-        </NestedListItem>
-        <NestedListItem>
-          Facilitating communications between clients and crew for time-critical
-          situations.
+          Scheduling - created and maintained job site scheduling and
+          facilitated communications between laborers and clients.
         </NestedListItem>
       </View>
       <ListItem>

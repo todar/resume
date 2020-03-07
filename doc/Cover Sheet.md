@@ -6,7 +6,6 @@
 
 - **Accountable** having been in charge of large projects and in leading teams I know the importance of being a consistent team player. To me, this means being faithful, availible, and teachable. I will apply all due dilegence in my work to insure that it is completed within deadlines and kept well organized. I will also maintain a clear and open line of communication.
 
-
 > Why does this company interest me?
 
 - **Desire to grow** I want to in a place where I can learn and grow by being mentored and challenged along the way. I have the desire to learn new technologies and refine my coding best practices and design patterns.
@@ -14,6 +13,3 @@
 - **Location** this gives me the flexiblity to maintain a healty balance between work and family life. This is important for me so that I don't get burnt out on my tasks at hand.
 
 - **Competitive opportunities** I have a strong desire to advance in my career. I want to have a place that has room for me to grow as I increase in my knowledge and skillsets.
-
-
-- Linkedin An innovative, teachable, problem solving developer with over 5 years of development within a corporate setting, developing systems and processes that have reduced thousands of labor hours while greatly increasing internal audit findings. Along with real world experience, Robert continues to learn the latest technologies, best practices, and design trends and aims to constantly refine his skills and knowledge base. He is a strong team player with a track record of demonstrating high character, accountability, maintaining an effective and clear line of communication. 

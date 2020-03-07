@@ -38,7 +38,9 @@ const Albertsons = () => {
           <NestedListItem>
             Software development - develop software for data analytics,
             dashboard reporting, and automation of manual tasks that are in
-            place due to legacy systems.
+            place due to legacy systems. These tools are saving over 46,000
+            labor hours annually and have aided in increasing findings by 60% in
+            two key audit categories.
           </NestedListItem>
           <NestedListItem>
             Data analysis - explore large amounts of data and old queries to
