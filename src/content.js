@@ -9,7 +9,7 @@ const content = {
     programmer with five years of 
     professional experience. Proficient in multiple programming languages and web development technologies.
     
-    Three years experience in developing React apps. React expereinces include create-react-app, react router, NextJs, Material-UI, styled components, and a strong knowledge of React Hooks.`,
+    Three years experience in developing React apps. React experiences include create-react-app, react router, NextJs, Material-UI, styled components, and a strong knowledge of React Hooks.`,
     contentArchive: `Have always enjoyed learning and having the ability to build new things from the ground up. Previously pursued that desire through construction; however, in 2015, I began to learn how to program and found it to fulfill those desires to an even greater level.
 
     The first language learned was VBA and has been the primary language used in my career over the last five years, along with a a great deal of SQL. But where I have found the most enjoyment has been learning and practicing web development for the last three years.`

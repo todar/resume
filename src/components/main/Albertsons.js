@@ -31,7 +31,7 @@ const Albertsons = () => {
         </ListItem>
         <View>
           <NestedListItem>
-            Process analysis - identify the businesses needs and inefficiencies
+            Process analysis - identify the business's needs and inefficiencies
             and use critical thinking to come up with new strategic solutions
             and document design plans for new process implementations.
           </NestedListItem>
@@ -44,9 +44,9 @@ const Albertsons = () => {
           </NestedListItem>
           <NestedListItem>
             Data analysis - explore large amounts of data and old queries to
-            find {"\n"}inconsistencies, gaps, and corruption and create
-            solutions and queries to extract the data for cleansing and
-            consolidation for auditing consumption.
+            find {"\n"}inconsistencies, gaps, and corruption to create solutions
+            and queries to extract the data for cleansing and consolidation for
+            auditing consumption.
           </NestedListItem>
           <NestedListItem>
             Application integration - tasked as the lead of systems integration
