@@ -38,6 +38,14 @@ const styles = StyleSheet.create({
     width: "20px",
     height: "20px",
     marginRight: 5
+  },
+  CreateWithNote: {
+    fontSize: 8,
+    position: "absolute",
+    bottom: "47px",
+    left: "18px",
+    color: "#70757a",
+    fontStyle: "italic"
   }
 });
 
@@ -116,6 +124,10 @@ const Accomplishments = () => (
   </View>
 );
 
+const CreateWithNote = () => (
+  <Text style={styles.CreateWithNote}>*This resume was made using React</Text>
+);
+
 const Main = () => (
   <View style={styles.main}>
     <WorkExperince />
@@ -123,6 +135,7 @@ const Main = () => (
     <Accomplishments />
     <Divider />
     <References />
+    <CreateWithNote />
   </View>
 );
 
