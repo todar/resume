@@ -37,16 +37,16 @@ const Albertsons = () => {
           </NestedListItem>
           <NestedListItem>
             Software development - develop software for data analytics,
-            dashboard reporting, and automation of manual tasks that are in
-            place due to legacy systems. These tools are saving over 46,000
+            dashboard{"\n"} reporting, and automation of manual tasks that are
+            in place due to legacy systems. These tools are saving over 46,000
             labor hours annually and have aided in increasing findings by 60% in
             two key audit categories.
           </NestedListItem>
           <NestedListItem>
             Data analysis - explore large amounts of data and old queries to
-            find inconsistencies, gaps, and corruption and create solutions and
-            queries to extract the data for cleansing and consolidation for
-            auditing consumption.
+            find {"\n"}inconsistencies, gaps, and corruption and create
+            solutions and queries to extract the data for cleansing and
+            consolidation for auditing consumption.
           </NestedListItem>
           <NestedListItem>
             Application integration - tasked as the lead of systems integration

@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     width: "200px",
     backgroundColor: "#202124",
     color: "#9aa0a6",
-    padding: "18px",
+    padding: "15px",
     textAlign: "center"
   }
 });

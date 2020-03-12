@@ -96,10 +96,6 @@ const Accomplishments = () => (
       <Text style={styles.mainTitle}>Accomplishments</Text>
     </View>
     <ListItem>
-      Self taught programmer and web developer. Learned from online
-      documentation, videos, and being an active participant on Stack Overflow.
-    </ListItem>
-    <ListItem>
       Created a full software application within VBA that has custom-built:
     </ListItem>
     <NestedListItem>version control</NestedListItem>

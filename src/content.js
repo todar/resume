@@ -5,7 +5,9 @@ const content = {
   },
   aboutSection: {
     title: "About",
-    content: `Motivated self-learner and skilled programmer with five years of professional experience. Proficient in multiple programming languages and web development technologies.
+    content: `Motivated self-learner and skilled 
+    programmer with five years of 
+    professional experience. Proficient in multiple programming languages and web development technologies.
     
     Three years experience in developing React apps. React expereinces include create-react-app, react router, NextJs, Material-UI, styled components, and a strong knowledge of React Hooks.`,
     contentArchive: `Have always enjoyed learning and having the ability to build new things from the ground up. Previously pursued that desire through construction; however, in 2015, I began to learn how to program and found it to fulfill those desires to an even greater level.
