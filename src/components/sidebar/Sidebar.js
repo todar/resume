@@ -12,8 +12,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#202124",
     color: "#9aa0a6",
     padding: "15px",
-    textAlign: "center"
-  }
+    textAlign: "center",
+  },
 });
 
 const Sidebar = () => {
@@ -21,8 +21,8 @@ const Sidebar = () => {
     <View style={styles.sidebar}>
       <ProfileSection />
       <Divider />
-      <AboutSection />
-      <Divider />
+      {/* <AboutSection />
+      <Divider /> */}
       <ConnectSection />
       <Divider />
       <SkillsSection />

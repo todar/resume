@@ -20,24 +20,24 @@ const styles = StyleSheet.create({
   main: {
     padding: "18px",
     flexBasis: "380px",
-    color: "#333"
+    color: "#333",
   },
   mainTitle: {
     fontSize: 15,
-    color: "#2a2b2e"
+    color: "#2a2b2e",
   },
   referenceGroup: {
-    flexDirection: "row"
+    flexDirection: "row",
   },
   titleGroup: {
     flexDirection: "row",
     alignItems: "center",
-    marginBottom: 10
+    marginBottom: 10,
   },
   logo: {
     width: "20px",
     height: "20px",
-    marginRight: 5
+    marginRight: 5,
   },
   CreateWithNote: {
     fontSize: 8,
@@ -45,8 +45,8 @@ const styles = StyleSheet.create({
     bottom: "47px",
     left: "18px",
     color: "#70757a",
-    fontStyle: "italic"
-  }
+    fontStyle: "italic",
+  },
 });
 
 const WorkExperince = () => (
@@ -133,8 +133,8 @@ const Main = () => (
     <WorkExperince />
     <Divider />
     <Accomplishments />
-    <Divider />
-    <References />
+    {/* <Divider />
+    <References /> */}
     <CreateWithNote />
   </View>
 );
