@@ -36,8 +36,8 @@ const Albertsons = () => {
       <View>
         <Text style={styles.content}>
           The primary software developer for internal auditing within product
-          allowances. {"\n"} Developed key business applications that serve as
-          the primary platform for data analytics, dashboard reporting, and
+          allowances. Developed key business applications that serve as the
+          primary platform for data analytics, dashboard reporting, and
           automation of manual tasks that are due to legacy systems. These tools
           are saving over 46,000 labor hours annually and have aided in
           increasing audit findings by 60% in two key audit categories.
@@ -47,8 +47,8 @@ const Albertsons = () => {
       <View>
         <ListItem>
           Identified missing critical data from the placement allowance audit
-          and implemented{"\n"} a new solution that pulls in the missing data
-          that directly led to a substantial increase in findings.
+          and implemented a new solution that pulls in the missing data that
+          directly led to a substantial increase in findings.
         </ListItem>
         <ListItem>
           Created an audit dashboard that greatly simplified the process for

@@ -1,20 +1,28 @@
 import React from "react";
 import Sidebar from "./components/sidebar/Sidebar";
 import Main from "./components/main/Main";
-import { PDFViewer, Document, Page, StyleSheet } from "@react-pdf/renderer";
+import {
+  PDFViewer,
+  Document,
+  Page,
+  StyleSheet,
+  Font,
+} from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
   page: {
-    flexDirection: "row"
+    flexDirection: "row",
   },
   section: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   viewer: {
     width: "100vw",
-    height: "100vh"
-  }
+    height: "100vh",
+  },
 });
+
+Font.registerHyphenationCallback((word) => [word]);
 
 /**
  * This resume is all around using [react-pdf](https://www.npmjs.com/package/@react-pdf/renderer) as it

@@ -25,6 +25,8 @@ const styles = StyleSheet.create({
     color: "#333",
     lineHeight: 1.3,
     marginBottom: 1,
+    marginRight: 20,
+    whiteSpace: "pre-wrap",
   },
   nestedItem: {
     flexDirection: "row",
@@ -39,14 +41,14 @@ const Content = ({ children }) => (
 const ListItem = ({ children }) => (
   <View style={styles.item}>
     <Text style={styles.bulletPoint}>•</Text>
-    <Content style={styles.itemContent}>{children}</Content>
+    <Content>{children}</Content>
   </View>
 );
 
 export const NestedListItem = ({ children }) => (
   <View style={styles.nestedItem}>
     <Text style={styles.nestedBulletPoint}>&#186;</Text>
-    <Content style={styles.itemContent}>{children}</Content>
+    <Content>{children}</Content>
   </View>
 );
 

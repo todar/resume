@@ -2,13 +2,11 @@ import React from "react";
 import { Text, View, Image, StyleSheet } from "@react-pdf/renderer";
 
 import jobs from "../../assets/jobs.png";
-import contacts from "../../assets/contacts.png";
 import accomplishment from "../../assets/accomplishment.png";
 import about from "../../assets/About.png";
 
 import Divider from "../Divider";
 import ListItem, { NestedListItem } from "../ListItem";
-import Reference from "./Reference";
 import Albertsons from "./Albertsons";
 import Saguaro from "./Saguaro";
 
@@ -43,7 +41,7 @@ const styles = StyleSheet.create({
   CreateWithNote: {
     fontSize: 8,
     position: "absolute",
-    bottom: "47px",
+    bottom: "15px",
     left: "18px",
     color: "#70757a",
     fontStyle: "italic",
@@ -68,43 +66,6 @@ const WorkExperince = () => (
     <Saguaro />
   </View>
 );
-
-// const References = () => (
-//   <View>
-//     <View style={styles.titleGroup}>
-//       <Image style={styles.logo} src={contacts} alt="" />
-//       <Text style={styles.mainTitle}>References</Text>
-//     </View>
-//     <View style={styles.referenceGroup}>
-//       <Reference
-//         name="Greg Rousseau"
-//         title="Group VP National Service Center"
-//         company="Albertsons Companies"
-//         email="greg.rousseau@albertsons.com"
-//       />
-//       <Reference
-//         name="Tracey Schmitz"
-//         title="Director of Allowance Billing"
-//         company="Albertsons Companies"
-//         email="tracey.schmitz@albertsons.com"
-//       />
-//     </View>
-//     <View style={styles.referenceGroup}>
-//       <Reference
-//         name="David Lehn"
-//         title="Manager of Allowance Audit"
-//         company="Albertsons Companies"
-//         email="david.lehn@albertsons.com"
-//       />
-//       <Reference
-//         name="Amber Pampas"
-//         title="Director"
-//         company="Saguaro Drywall"
-//         email="amber.pampas@saguharo.com"
-//       />
-//     </View>
-//   </View>
-// );
 
 const Accomplishments = () => (
   <View>
