@@ -1,9 +1,20 @@
 import React from "react";
-import { View } from "@react-pdf/renderer";
+import { View, Text, StyleSheet } from "@react-pdf/renderer";
 import ListItem from "../ListItem";
 import JobHeader from "./JobHeader";
 import albertsonsLogo from "../../assets/Albertsons-50x50.png";
 import { useContent } from "../../content";
+
+const styles = StyleSheet.create({
+  content: {
+    fontSize: 9,
+    fontWeight: "light",
+    color: "#333",
+    lineHeight: 1.3,
+    marginBottom: 8,
+    whiteSpace: "pre-wrap",
+  },
+});
 
 const Albertsons = () => {
   const {
@@ -23,33 +34,36 @@ const Albertsons = () => {
       />
 
       <View>
+        <Text style={styles.content}>
+          The primary software developer for internal auditing within product
+          allowances. {"\n"} Developed key business applications that serve as
+          the primary platform for data analytics, dashboard reporting, and
+          automation of manual tasks that are due to legacy systems. These tools
+          are saving over 46,000 labor hours annually and have aided in
+          increasing audit findings by 60% in two key audit categories.
+        </Text>
+      </View>
+
+      <View>
         <ListItem>
-          Recognized for the development of software applications and queries
-          that greatly increased audit findings and was promoted to Business
-          Analyst responsible for:
+          Identified missing critical data from the placement allowance audit
+          and implemented{"\n"} a new solution that pulls in the missing data
+          that directly led to a substantial increase in findings.
         </ListItem>
         <ListItem>
-          Process analysis - identify the business's needs and inefficiencies
-          and use critical thinking to come up with new strategic solutions and
-          document design plans for new process implementations.
+          Created an audit dashboard that greatly simplified the process for
+          auditing case allowances by providing an intuitive workflow for
+          running analytics and uploading billings.
         </ListItem>
         <ListItem>
-          Software development - develop software for data analytics, dashboard
-          {"\n"} reporting, and automation of manual tasks that are in place due
-          to legacy systems. These tools are saving over 46,000 labor hours
-          annually and have aided in increasing findings by 60% in two key audit
-          categories.
+          Led review of legacy applications and data sources, introducing
+          increased data integrity and creating a usable source for internal
+          auditing.
         </ListItem>
         <ListItem>
-          Data analysis - explore large amounts of data and old queries to find{" "}
-          {"\n"}inconsistencies, gaps, and corruption to create solutions and
-          queries to extract the data for cleansing and consolidation for
-          auditing consumption.
-        </ListItem>
-        <ListItem>
-          Application integration - tasked as the lead of systems integration
-          for moving all financial data from a legacy system into the Oracle
-          cloud environment.
+          Tasked as the lead workstream for system integrations for moving all
+          financial data from a legacy system into the Oracle cloud environment
+          to move towards a single source of truth and live data.
         </ListItem>
       </View>
     </View>

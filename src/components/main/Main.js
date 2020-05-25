@@ -4,6 +4,7 @@ import { Text, View, Image, StyleSheet } from "@react-pdf/renderer";
 import jobs from "../../assets/jobs.png";
 import contacts from "../../assets/contacts.png";
 import accomplishment from "../../assets/accomplishment.png";
+import about from "../../assets/About.png";
 
 import Divider from "../Divider";
 import ListItem, { NestedListItem } from "../ListItem";
@@ -47,6 +48,14 @@ const styles = StyleSheet.create({
     color: "#70757a",
     fontStyle: "italic",
   },
+  content: {
+    fontSize: 9,
+    fontWeight: "light",
+    color: "#333",
+    lineHeight: 1.3,
+    marginBottom: 8,
+    whiteSpace: "pre-wrap",
+  },
 });
 
 const WorkExperince = () => (
@@ -60,42 +69,42 @@ const WorkExperince = () => (
   </View>
 );
 
-const References = () => (
-  <View>
-    <View style={styles.titleGroup}>
-      <Image style={styles.logo} src={contacts} alt="" />
-      <Text style={styles.mainTitle}>References</Text>
-    </View>
-    <View style={styles.referenceGroup}>
-      <Reference
-        name="Greg Rousseau"
-        title="Group VP National Service Center"
-        company="Albertsons Companies"
-        email="greg.rousseau@albertsons.com"
-      />
-      <Reference
-        name="Tracey Schmitz"
-        title="Director of Allowance Billing"
-        company="Albertsons Companies"
-        email="tracey.schmitz@albertsons.com"
-      />
-    </View>
-    <View style={styles.referenceGroup}>
-      <Reference
-        name="David Lehn"
-        title="Manager of Allowance Audit"
-        company="Albertsons Companies"
-        email="david.lehn@albertsons.com"
-      />
-      <Reference
-        name="Amber Pampas"
-        title="Director"
-        company="Saguaro Drywall"
-        email="amber.pampas@saguharo.com"
-      />
-    </View>
-  </View>
-);
+// const References = () => (
+//   <View>
+//     <View style={styles.titleGroup}>
+//       <Image style={styles.logo} src={contacts} alt="" />
+//       <Text style={styles.mainTitle}>References</Text>
+//     </View>
+//     <View style={styles.referenceGroup}>
+//       <Reference
+//         name="Greg Rousseau"
+//         title="Group VP National Service Center"
+//         company="Albertsons Companies"
+//         email="greg.rousseau@albertsons.com"
+//       />
+//       <Reference
+//         name="Tracey Schmitz"
+//         title="Director of Allowance Billing"
+//         company="Albertsons Companies"
+//         email="tracey.schmitz@albertsons.com"
+//       />
+//     </View>
+//     <View style={styles.referenceGroup}>
+//       <Reference
+//         name="David Lehn"
+//         title="Manager of Allowance Audit"
+//         company="Albertsons Companies"
+//         email="david.lehn@albertsons.com"
+//       />
+//       <Reference
+//         name="Amber Pampas"
+//         title="Director"
+//         company="Saguaro Drywall"
+//         email="amber.pampas@saguharo.com"
+//       />
+//     </View>
+//   </View>
+// );
 
 const Accomplishments = () => (
   <View>
@@ -128,13 +137,34 @@ const CreateWithNote = () => (
   <Text style={styles.CreateWithNote}>*This resume was made using React</Text>
 );
 
+const About = () => (
+  <View>
+    <View style={styles.titleGroup}>
+      <Image style={styles.logo} src={about} alt="" />
+      <Text style={styles.mainTitle}>About</Text>
+    </View>
+    <View>
+      <Text style={styles.content}>
+        Innovative, teachable, problem solving developer with over 5 years of
+        development experience within corporate settings, developing systems and
+        processes that have reduced thousands of labor hours while greatly
+        increasing internal audit findings. A continuous self educator, staying
+        up to date on the latest technologies, best practices, and design trends
+        to stay refined in both skills and knowledge. Strong team player with a
+        track record of demonstrating high character, accountability,
+        maintaining an effective and clear line of communication.
+      </Text>
+    </View>
+  </View>
+);
+
 const Main = () => (
   <View style={styles.main}>
+    <About />
+    <Divider />
     <WorkExperince />
     <Divider />
     <Accomplishments />
-    {/* <Divider />
-    <References /> */}
     <CreateWithNote />
   </View>
 );
