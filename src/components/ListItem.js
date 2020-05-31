@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     color: "#333",
     lineHeight: 1.3,
     marginBottom: 1,
-    marginRight: 20,
+    marginRight: 10,
     whiteSpace: "pre-wrap",
   },
   nestedItem: {

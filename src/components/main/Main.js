@@ -17,7 +17,7 @@ import Saguaro from "./Saguaro";
  */
 const styles = StyleSheet.create({
   main: {
-    padding: "18px",
+    padding: "18px 18px 18px 18px",
     flexBasis: "380px",
     color: "#333",
   },
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   CreateWithNote: {
     fontSize: 8,
     position: "absolute",
-    bottom: "15px",
+    bottom: "35px",
     left: "18px",
     color: "#70757a",
     fontStyle: "italic",
