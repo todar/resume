@@ -1,0 +1,3 @@
+_This is text for my Linkedin page_
+
+An innovative, teachable, problem solving developer with over 5 years of development within a corporate setting, developing systems and processes that have reduced thousands of labor hours while greatly increasing internal audit findings. Along with real world experience, Robert continues to learn the latest technologies, best practices, and design trends and aims to constantly refine his skills and knowledge base. He is a strong team player with a track record of demonstrating high character, accountability, maintaining an effective and clear line of communication.

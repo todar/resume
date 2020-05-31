@@ -1,0 +1,49 @@
+// This is a copy
+
+
+import React from "react";
+import { View } from "@react-pdf/renderer";
+import ListItem, { NestedListItem } from "../ListItem";
+import JobHeader from "./JobHeader";
+import saguaroLogo from "../../assets/SaguaroLogo-50x50.PNG";
+
+const Saguaro = () => (
+  <View>
+    <JobHeader
+      src={saguaroLogo}
+      alt="Saguaro Drywall"
+      title="Superintendent"
+      company="Saguaro Drywall"
+      timeframe="2013 - 2015"
+    />
+    <View>
+      <ListItem>
+        Advanced from being a laborer to becoming the lead superintendent in
+        charge of drywall repairs.
+      </ListItem>
+      <View>
+        <NestedListItem>
+          Cost estimation - inspected new job sites to deterimine the expected
+          time, cost, materials, and labor needed. Wrote contacts for approval
+          from builders and home owners. These were mostly high net-worth,
+          custom residential clients.
+        </NestedListItem>
+
+        <NestedListItem>
+          Inspection - thoroughly walked all job sites to ensure a high quality
+          of repairwork and finishing.
+        </NestedListItem>
+        <NestedListItem>
+          Scheduling - created and maintained job site scheduling and
+          facilitated communications between laborers and clients.
+        </NestedListItem>
+      </View>
+      <ListItem>
+        Created a job scheduling application using Visual Basic for Applications
+        that maintained job site information and repairman coverage.
+      </ListItem>
+    </View>
+  </View>
+);
+
+export default Saguaro;

@@ -1,29 +1,31 @@
 import React from "react";
 import { useContent } from "../../content";
 import { Text, View, Image, StyleSheet } from "@react-pdf/renderer";
-import Profile from "../../assets/profile.jpg";
+import Profile from "../../assets/profile-200x200.jpg";
 
 const styles = StyleSheet.create({
   name: {
     textAlign: "center",
     color: "#fff",
-    margin: "8px 0 2px"
+    margin: "8px 0 2px",
   },
   title: {
     textAlign: "center",
     fontSize: "15",
-    color: "#fff"
+    color: "#fff",
   },
   profileImage: {
     borderRadius: "500",
     width: "130px",
     height: "130px",
-    margin: "auto"
-  }
+    margin: "auto",
+  },
 });
 
 const ProfileSection = () => {
-  const { name, title } = useContent();
+  const {
+    profileSection: { name, title },
+  } = useContent();
   return (
     <View>
       <Image style={styles.profileImage} src={Profile} alt="Profile" />
