@@ -1,0 +1,61 @@
+{
+  "name": "Robert Todar",
+  "title": "Software Developer",
+  "location": "Phoenix, Arizona",
+  "phoneNumber": "602 - 935 - 5076",
+  "email": "robert@roberttodar.com",
+  "website": "www.roberttodar.com",
+  "skills": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "React.js",
+    "Svelte.js",
+    "SQL",
+    "Git",
+    "npm",
+    "Github",
+    "Firebase",
+    "VBA",
+    "Python"
+  ],
+  "about": "An innovative, teachable, problem solving software developer with over 5 years experience within a corporate setting, developing systems and processes that have reduced thousands of labor hours and have greatly increased productivity and data accuracy. A continuous self-educator, staying up to date on the latest technologies, best practices, and design trends to enhance key skills and increase knowledge. Strong team player with a track record of demonstrating high character, accountability, and clear communication.",
+  "experience": [
+    {
+      "company": "Albertsons Companies",
+      "location": "Phoenix, Arizona",
+      "startdate": "12/01/2015",
+      "enddate": "Present",
+      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQH5Gtb9dQHWhQ/company-logo_200_200/0?e=1606348800&v=beta&t=IiE0TnXsqmy9DFBIRnBBp6_D5FeAihhtan7hoVLeAAA",
+      "positions": [
+        {
+          "title": "Digital Workforce Analyst II",
+          "startdate": "8/16/2020",
+          "enddate": "Present",
+          "description": "- Designed the teams DevOps system using Github Actions that promotes CI/CD using intergated testing suites.\n\n- Code review Python and VBA used with various Machine Learning and automation.\n\n- Improved code style documentation to implement a test driven development workflow."
+        },
+        {
+          "title": "Business Analyst",
+          "startdate": "Dec 2015",
+          "enddate": "8/16/2020",
+          "description": "The primary software developer for internal auditing within product allowances. Developed key business applications that serve as the primary platform for data analytics and dashboard reporting. Automated a significant number of previously manual tasks. These tools are saving over 46,000 labor hours annually and have aided in increasing audit findings by 60% in two key audit categories.\n\n- Identified missing critical data from the placement allowance audit and implemented a new solution that pulls in the missing data resulting in a substantial increase in findings.\n\n- Created an audit dashboard that greatly simplified the process for auditing case allowances by providing an intuitive workflow for running analytics and uploading billings.\n\n- Led review of legacy applications and data sources which resulted in increased data integrity and the creation of a usable datasets for internal auditing.\n\n- Tasked as the lead for system integrations for moving all financial data from a legacy system into the Oracle cloud environment to move towards a single source of truth and live data."
+        }
+      ]
+    },
+    {
+      "company": "Saguaro Drywall",
+      "location": "Phoenix, Arizona",
+      "startdate": 2013,
+      "enddate": 2015,
+      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQH6kmdg1KsqZw/company-logo_200_200/0?e=1606348800&v=beta&t=xbfJwkSx8V9FNgszGTDNggoFUSEOkydhG_FAurvv5LE",
+      "positions": [
+        {
+          "title": "Superintendent",
+          "startdate": 2013,
+          "enddate": 2015,
+          "description": "Learned the business from the ground up. Started as a laborer, trained under the lead project manager for over a year, and advanced to becoming the lead superintendent in charge of drywall repairs.\n\n- Engaged with clients and builders on a frequent basis to build professional relationships to help promote the business and maintain open lines of communication.\n\n- Maintained a high level of quality assurance by closely inspecting each job site as well as walking job sites with both repairmen and clients while listening for feedback and providing assistance where needed.\n\n- Created a job scheduling application that tracked job site information and repairman coverage resulting in improved work flow for all upcoming and ongoing projects."
+        }
+      ]
+    }
+  ]
+}
