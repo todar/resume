@@ -1,0 +1,3 @@
+# About
+
+An innovative, teachable, problem solving software developer with over 5 years experience within a corporate setting, developing systems and processes that have reduced thousands of labor hours and have greatly increased productivity and data accuracy. A continuous self-educator, staying up to date on the latest technologies, best practices, and design trends to enhance key skills and increase knowledge. Strong team player with a track record of demonstrating high character, accountability, and clear communication.
