@@ -1,3 +1,3 @@
 # About
 
-An innovative, teachable, problem solving software developer with over 5 years experience. Have develped a wide variety of applications and resources including fullstack web applications, automation and analysis using VBA and Pyton, SQL used within DB2 and SnowFlake, and NoSQL used within Firestore. Trained in HTML5, CSS3, JavaScript ES6, and highly specialized in React and Svelte frontend frameworks.
+An innovative, teachable, problem-solving software developer with over 5 years of experience. Have developed a wide variety of applications and resources including full-stack web applications, automation and analysis using VBA and Python, SQL used within DB2 and SnowFlake, and NoSQL used within Firestore. Trained in HTML5, CSS3, JavaScript ES6, and highly specialized in React and Svelte frontend frameworks.
