@@ -1,3 +1,3 @@
 # About
 
-An innovative, teachable, problem solving software developer with over 5 years experience within a corporate setting, developing systems and processes that have reduced thousands of labor hours and have greatly increased productivity and data accuracy. A continuous self-educator, staying up to date on the latest technologies, best practices, and design trends to enhance key skills and increase knowledge. Strong team player with a track record of demonstrating high character, accountability, and clear communication.
+An innovative, teachable, problem solving software developer with over 5 years experience. Have develped a wide variety of applications and resources including fullstack web applications, automation and analysis using VBA and Pyton, SQL used within DB2 and SnowFlake, and NoSQL used within Firestore. Trained in HTML5, CSS3, JavaScript ES6, and highly specialized in React and Svelte frontend frameworks.
