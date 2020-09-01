@@ -2,7 +2,7 @@ import React from "react";
 import { View, Image, StyleSheet } from "@react-pdf/renderer";
 import SectionTitle from "./SectionTitle";
 import Content from "./Content";
-import { useContent } from "../../content";
+import { useContent } from "../../stores/content";
 import locationIcon from "../../assets/map-marker-alt-solid.png";
 import phoneIcon from "../../assets/phone.png";
 import websiteIcon from "../../assets/websiteIcon.png";
@@ -15,13 +15,13 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "flex-end",
     margin: "3px 0 2px",
-    padding: 0
+    padding: 0,
   },
   icon: {
     width: "20px",
     height: "20px",
-    margin: 0
-  }
+    margin: 0,
+  },
 });
 
 const Icon = ({ src }) => (
@@ -32,7 +32,7 @@ const Icon = ({ src }) => (
 
 const ConnectSection = () => {
   const {
-    connectSection: { title, location, phoneNumber, email, website }
+    connectSection: { title, location, phoneNumber, email, website },
   } = useContent();
   return (
     <View>

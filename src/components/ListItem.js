@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
   },
   bulletPoint: {
     marginRight: 6,
-    marginLeft: 15,
+    marginLeft: 40,
     fontSize: 10,
     color: "#333",
   },
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     color: "#333",
     lineHeight: 1.3,
     marginBottom: 1,
-    marginRight: 10,
+    marginRight: 40,
     whiteSpace: "pre-wrap",
   },
   nestedItem: {

@@ -6,30 +6,29 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "flex-start",
     alignItems: "center",
-    marginBottom: 10
+    marginBottom: 10,
   },
   logo: {
-    width: "25px",
-    marginRight: 10
+    width: "20px",
+    marginRight: 10,
   },
   title: {
-    color: "#000",
-    fontSize: 10
+    color: "#111",
+    fontSize: 10,
   },
   content: {
     fontSize: 10,
-    color: "#333"
-  }
+    color: "#333",
+  },
 });
 
-const JobHeader = ({ src, alt, title, company, timeframe }) => (
+const JobHeader = ({ src, company, timeframe }) => (
   <View style={styles.header}>
     <View>
-      <Image style={styles.logo} src={src} alt={alt} />
+      <Image style={styles.logo} src={src} />
     </View>
     <View>
-      <Text style={styles.title}>{title}</Text>
-      <Text style={styles.content}>{company}</Text>
+      <Text style={styles.title}>{company}</Text>
       <Text style={styles.content}>{timeframe}</Text>
     </View>
   </View>

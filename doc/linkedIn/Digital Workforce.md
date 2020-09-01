@@ -1,24 +1,8 @@
-# Digital Workforce Analyst II
+The lead for creating a standardization of a DevOps workflow using automation.
 
-Brought in to help standardize in creating a DevOps workflow.
-- Create workflow for source control, testing, continuous integration, contineous deployment.
+- Implementing setup and training to move towards using Git and Github Enterprise for source control, in order to help manage, track, and document all the current and future code sources.
 
-- **Source Control**
-Move from local files to GitHub enteprise. This will include training, setup, and merging current source files.
-Standardize documentation for repositories, issues, pull requests.
-- Implement Source Control system - (manage, track, and document) using Git and Github
-- Move from onprem to Github Enteprise.
+- Creating and documenting a DevOps workflow using Github actions for continuous integration and continuous deployment. This will include automating the testing, building, and deployment of code.
 
-- **DevOps**
-Create GitHub actions for running tests, builing, and deploying code.
-- Commit to shared repository frequently
-- Each commit triggers an automated workflow on a ci server (GitHub Actions).
-- Be notified of any issues intergrating changes
-- Application monitoring, Optimization to understand performance impact of the changes
-- Automate the test, build, and deployment process for all code.
-
-- **Documentaion**
-- Create best practices for coding standards for Python.
-- Create documentation and automation for new programmer onboarding process and current user upgrades.
-- Creating a standardized test process for continuous deployment.
-- Code review Python and VBA used with various Machine Learning and automation.
+- Creating documentation for best practices in writing Python including a thorough guideline for writing unit tests.
+Performing code review of VBA and Python to ensure coding standards are followed as well as looking for any opportunities for optimizations.

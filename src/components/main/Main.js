@@ -9,6 +9,9 @@ import Divider from "../Divider";
 import ListItem, { NestedListItem } from "../ListItem";
 import Albertsons from "./Albertsons";
 import Saguaro from "./Saguaro";
+import Article from "./Article";
+
+import { useContent } from "../../stores/content";
 
 /**
  * Yikes, a bit a a mess!😞
@@ -18,7 +21,7 @@ import Saguaro from "./Saguaro";
 const styles = StyleSheet.create({
   main: {
     padding: "18px 18px 18px 18px",
-    flexBasis: "380px",
+    flexBasis: "400px",
     color: "#333",
   },
   mainTitle: {
@@ -36,7 +39,7 @@ const styles = StyleSheet.create({
   logo: {
     width: "20px",
     height: "20px",
-    marginRight: 5,
+    marginRight: 10,
   },
   CreateWithNote: {
     fontSize: 8,
@@ -54,18 +57,40 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     whiteSpace: "pre-wrap",
   },
+  contentGroup: {
+    marginLeft: "30px",
+  },
 });
 
-const WorkExperince = () => (
-  <View>
-    <View style={styles.titleGroup}>
-      <Image style={styles.logo} src={jobs} alt="" />
-      <Text style={styles.mainTitle}>Work Experience</Text>
-    </View>
-    <Albertsons />
-    <Saguaro />
+const SectionTitle = ({ title, icon }) => (
+  <View style={styles.titleGroup}>
+    <Image style={styles.logo} src={icon} />
+    <Text style={styles.mainTitle}>{title}</Text>
   </View>
 );
+
+const About = () => {
+  const { aboutSection: { title, content } } = useContent();
+  return (
+    <View>
+      <SectionTitle title={title} icon={about} />
+      <Article>
+        {content}
+      </Article>
+    </View>
+  );
+};
+
+const WorkExperince = () => {
+  const { workExperience: { title } } = useContent();
+  return (
+    <View>
+      <SectionTitle title={title} icon={jobs} />
+      <Albertsons />
+      <Saguaro />
+    </View>
+  );
+};
 
 const Accomplishments = () => (
   <View>
@@ -98,34 +123,11 @@ const CreateWithNote = () => (
   <Text style={styles.CreateWithNote}>*This resume was made using React</Text>
 );
 
-const About = () => (
-  <View>
-    <View style={styles.titleGroup}>
-      <Image style={styles.logo} src={about} alt="" />
-      <Text style={styles.mainTitle}>About</Text>
-    </View>
-    <View>
-      <Text style={styles.content}>
-        Innovative, teachable, problem solving developer with over 5 years of
-        development experience within corporate settings, developing systems and
-        processes that have reduced thousands of labor hours while greatly
-        increasing internal audit findings. A continuous self educator, staying
-        up to date on the latest technologies, best practices, and design trends
-        to stay refined in both skills and knowledge. Strong team player with a
-        track record of demonstrating high character, accountability,
-        maintaining an effective and clear line of communication.
-      </Text>
-    </View>
-  </View>
-);
-
 const Main = () => (
   <View style={styles.main}>
     <About />
     <Divider />
     <WorkExperince />
-    <Divider />
-    <Accomplishments />
     <CreateWithNote />
   </View>
 );

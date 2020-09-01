@@ -1,5 +1,5 @@
 import React from "react";
-import { useContent } from "../../content";
+import { useContent } from "../../stores/content";
 import { Text, View, Image, StyleSheet } from "@react-pdf/renderer";
 import Profile from "../../assets/profile-200x200.jpg";
 

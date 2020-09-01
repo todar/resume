@@ -5,12 +5,10 @@ const content = {
   },
   aboutSection: {
     title: "About",
-    content: `Motivated self-learner and skilled 
-    programmer with five years of 
-    professional experience. Proficient in multiple programming languages and web development technologies.
-    
-    Three years experience in developing React apps. React experiences include create-react-app, react router, NextJs, Material-UI, styled components, and a strong knowledge of React Hooks.`,
-    contentArchive: `Have always enjoyed learning and having the ability to build new things from the ground up. Previously pursued that desire through construction; however, in 2015, I began to learn how to program and found it to fulfill those desires to an even greater level.
+    content:
+      `An innovative, teachable, problem-solving software developer with over 5 years of experience. Have developed a wide variety of applications and resources including full-stack web applications, automation and analysis using VBA and Python, SQL, and NoSQL. Trained in HTML5, CSS3, JavaScript ES6, and highly specialized in React and Svelte frontend frameworks.`,
+    contentArchive:
+      `Have always enjoyed learning and having the ability to build new things from the ground up. Previously pursued that desire through construction; however, in 2015, I began to learn how to program and found it to fulfill those desires to an even greater level.
 
     The first language learned was VBA and has been the primary language used in my career over the last five years, along with a a great deal of SQL. But where I have found the most enjoyment has been learning and practicing web development for the last three years.`,
   },
@@ -25,18 +23,18 @@ const content = {
     title: "Software Skills",
     skills: [
       "JavaScript ES6+",
-      "TypeScript",
       "HTML5",
       "CSS3",
-      "React",
-      "Svelte",
-      "Sass",
+      "React.js",
+      "Svelte.js",
+      "Jest.js",
       "SQL",
       "Git",
       "npm",
       "Firebase",
       "Github",
       "VBA",
+      "Python",
     ],
   },
   workExperience: {
@@ -44,7 +42,7 @@ const content = {
     jobs: [
       {
         title: "Business Analyst",
-        company: "Albertsons",
+        company: "Albertsons Companies",
         timeframe: "2015 - Present",
         note: "Summary is'nt working with React PDF....",
         summary: `
