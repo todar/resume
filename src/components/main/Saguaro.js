@@ -3,6 +3,7 @@ import { View, Text, StyleSheet } from "@react-pdf/renderer";
 import ListItem, { NestedListItem } from "../ListItem";
 import JobHeader from "./JobHeader";
 import saguaroLogo from "../../assets/SaguaroLogo-50x50.PNG";
+import Article from "./Article"
 
 const styles = StyleSheet.create({
   content: {
@@ -19,18 +20,15 @@ const Saguaro = () => (
   <View>
     <JobHeader
       src={saguaroLogo}
-      alt="Saguaro Drywall"
       title="Superintendent"
       company="Saguaro Drywall"
       timeframe="2013 - 2015"
     />
-    <View>
-      <Text style={styles.content}>
-        Learned the business from the ground up, started as a laborer and
-        trained under the lead project manager for over a year and advanced to
-        becoming the lead superintendent in charge of drywall repairs.
-      </Text>
-    </View>
+    <Article>
+      Learned the business from the ground up, started as a laborer and
+      trained under the lead project manager for over a year and advanced to
+      becoming the lead superintendent in charge of drywall repairs.
+    </Article>
 
     <View>
       <ListItem>

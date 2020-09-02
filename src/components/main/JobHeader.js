@@ -22,12 +22,13 @@ const styles = StyleSheet.create({
   },
 });
 
-const JobHeader = ({ src, company, timeframe }) => (
+const JobHeader = ({ src, company, timeframe, title }) => (
   <View style={styles.header}>
     <View>
       <Image style={styles.logo} src={src} />
     </View>
     <View>
+      {title && <Text style={styles.title}>{title}</Text>}
       <Text style={styles.title}>{company}</Text>
       <Text style={styles.content}>{timeframe}</Text>
     </View>

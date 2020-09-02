@@ -2,15 +2,16 @@ import React from "react";
 import { Text, View, Image, StyleSheet } from "@react-pdf/renderer";
 
 import jobs from "../../assets/jobs.png";
-import accomplishment from "../../assets/accomplishment.png";
 import about from "../../assets/About.png";
 
 import Divider from "../Divider";
-import ListItem, { NestedListItem } from "../ListItem";
 import Albertsons from "./Albertsons";
 import Saguaro from "./Saguaro";
 import Article from "./Article";
 
+import SectionTitle from "./SectionTitle";
+
+import Certifications from "./Certifications";
 import { useContent } from "../../stores/content";
 
 /**
@@ -44,8 +45,8 @@ const styles = StyleSheet.create({
   CreateWithNote: {
     fontSize: 8,
     position: "absolute",
-    bottom: "35px",
-    left: "18px",
+    bottom: "18px",
+    right: "18px",
     color: "#70757a",
     fontStyle: "italic",
   },
@@ -61,13 +62,6 @@ const styles = StyleSheet.create({
     marginLeft: "30px",
   },
 });
-
-const SectionTitle = ({ title, icon }) => (
-  <View style={styles.titleGroup}>
-    <Image style={styles.logo} src={icon} />
-    <Text style={styles.mainTitle}>{title}</Text>
-  </View>
-);
 
 const About = () => {
   const { aboutSection: { title, content } } = useContent();
@@ -92,32 +86,32 @@ const WorkExperince = () => {
   );
 };
 
-const Accomplishments = () => (
-  <View>
-    <View style={styles.titleGroup}>
-      <Image style={styles.logo} src={accomplishment} alt="" />
-      <Text style={styles.mainTitle}>Accomplishments</Text>
-    </View>
-    <ListItem>
-      Created a full software application within VBA that has custom-built:
-    </ListItem>
-    <NestedListItem>version control</NestedListItem>
-    <NestedListItem>distribution system</NestedListItem>
-    <NestedListItem>user analytics</NestedListItem>
-    <NestedListItem>event logging</NestedListItem>
-    <NestedListItem>data caching</NestedListItem>
-    <NestedListItem>
-      and full CRUD capabilities to multiple data sources
-    </NestedListItem>
-    <ListItem>
-      Major contributor in increasing allowance audit findings by millions of
-      dollars each year.
-    </ListItem>
-    <ListItem>
-      Certified in Robotic Process Automation through Automation Anywhere.
-    </ListItem>
-  </View>
-);
+// const Accomplishments = () => (
+//   <View>
+//     <View style={styles.titleGroup}>
+//       <Image style={styles.logo} src={accomplishment} alt="" />
+//       <Text style={styles.mainTitle}>Accomplishments</Text>
+//     </View>
+//     <ListItem>
+//       Created a full software application within VBA that has custom-built:
+//     </ListItem>
+//     <NestedListItem>version control</NestedListItem>
+//     <NestedListItem>distribution system</NestedListItem>
+//     <NestedListItem>user analytics</NestedListItem>
+//     <NestedListItem>event logging</NestedListItem>
+//     <NestedListItem>data caching</NestedListItem>
+//     <NestedListItem>
+//       and full CRUD capabilities to multiple data sources
+//     </NestedListItem>
+//     <ListItem>
+//       Major contributor in increasing allowance audit findings by millions of
+//       dollars each year.
+//     </ListItem>
+//     <ListItem>
+//       Certified in Robotic Process Automation through Automation Anywhere.
+//     </ListItem>
+//   </View>
+// );
 
 const CreateWithNote = () => (
   <Text style={styles.CreateWithNote}>*This resume was made using React</Text>
@@ -128,6 +122,8 @@ const Main = () => (
     <About />
     <Divider />
     <WorkExperince />
+    <Divider />
+    <Certifications />
     <CreateWithNote />
   </View>
 );
