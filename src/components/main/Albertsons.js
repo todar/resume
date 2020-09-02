@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet } from "@react-pdf/renderer";
+import { View, StyleSheet } from "@react-pdf/renderer";
 import ListItem from "../ListItem";
 import JobHeader from "./JobHeader";
 import albertsonsLogo from "../../assets/Albertsons-50x50.png";
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
 const Albertsons = () => {
   const {
     workExperience: {
-      jobs: [{ title, company, timeframe }],
+      jobs: [{ company, timeframe }],
     },
   } = useContent();
 
@@ -85,9 +85,12 @@ const Albertsons = () => {
         </ListItem>
         <ListItem>
           Creating documentation for best practices in writing Python including
-          a thorough guideline for writing unit tests. Performing code review of
-          VBA and Python to ensure coding standards are followed as well as
-          looking for any opportunities for optimizations.
+          a thorough guideline for writing unit tests.
+        </ListItem>
+        <ListItem>
+          Performing code review of VBA and Python to ensure coding standards
+          are followed as well as looking for any opportunities for
+          optimizations.
         </ListItem>
       </View>
       <View>

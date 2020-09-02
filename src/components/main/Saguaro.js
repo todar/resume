@@ -1,20 +1,9 @@
 import React from "react";
-import { View, Text, StyleSheet } from "@react-pdf/renderer";
-import ListItem, { NestedListItem } from "../ListItem";
+import { View } from "@react-pdf/renderer";
+import ListItem from "../ListItem";
 import JobHeader from "./JobHeader";
 import saguaroLogo from "../../assets/SaguaroLogo-50x50.PNG";
-import Article from "./Article"
-
-const styles = StyleSheet.create({
-  content: {
-    fontSize: 9,
-    fontWeight: "light",
-    color: "#333",
-    lineHeight: 1.3,
-    marginBottom: 8,
-    whiteSpace: "pre-wrap",
-  },
-});
+import Article from "./Article";
 
 const Saguaro = () => (
   <View>
@@ -25,9 +14,9 @@ const Saguaro = () => (
       timeframe="2013 - 2015"
     />
     <Article>
-      Learned the business from the ground up, started as a laborer and
-      trained under the lead project manager for over a year and advanced to
-      becoming the lead superintendent in charge of drywall repairs.
+      Learned the business from the ground up, started as a laborer and trained
+      under the lead project manager for over a year and advanced to becoming
+      the lead superintendent in charge of drywall repairs.
     </Article>
 
     <View>

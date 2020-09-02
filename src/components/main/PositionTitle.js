@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     fontWeight: "light",
     color: "#333",
     lineHeight: 1.3,
-    marginBottom: 7,
+    marginBottom: 4,
     whiteSpace: "pre-wrap",
   },
   title: {

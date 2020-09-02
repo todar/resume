@@ -1,12 +1,14 @@
 import React from "react";
 import Sidebar from "./components/sidebar/Sidebar";
 import Main from "./components/main/Main";
+import Button from "./components/button/Button";
 import {
   PDFViewer,
   Document,
   Page,
   StyleSheet,
   Font,
+  PDFDownloadLink,
 } from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
@@ -37,15 +39,28 @@ Font.registerHyphenationCallback((word) => [word]);
  * With that said I'm happy with this so far, and it was a good learning expereince. This is not hosted
  * anywhere at the moment but I might add it to my website after I clean it up a bit.
  */
+
+const Resume = () => (
+  <Document>
+    <Page size="A4" style={styles.page}>
+      <Sidebar />
+      <Main />
+    </Page>
+  </Document>
+);
+
 const App = () => (
-  <PDFViewer style={styles.viewer}>
-    <Document>
-      <Page size="A4" style={styles.page}>
-        <Sidebar />
-        <Main />
-      </Page>
-    </Document>
-  </PDFViewer>
+  <div>
+    <PDFViewer style={styles.viewer}>
+      <Resume />
+    </PDFViewer>
+    <PDFDownloadLink document={<Resume />} fileName="resume.pdf">
+      {(
+        { blob, url, loading, error },
+      ) => (loading ? "Loading document..." : <Button>Download</Button>)}
+    </PDFDownloadLink>
+    
+  </div>
 );
 
 export default App;
