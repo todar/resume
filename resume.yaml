@@ -21,7 +21,7 @@ skills:
   - VBA
   - Python
 about: |-
-  An innovative, teachable, problem-solving software developer with over 5 years of experience. Have developed a wide variety of applications and resources including full-stack web applications, automation and analysis using VBA and Python, SQL, and NoSQL. Trained in HTML5, CSS3, JavaScript ES6, and highly specialized in React and Svelte frontend frameworks.
+  An innovative, teachable, problem-solving software developer with over 6 years of experience. Have developed a wide variety of applications and resources including full-stack web applications, automation and analysis using VBA and Python, SQL, and NoSQL. Trained in HTML5, CSS3, JavaScript ES6, and highly specialized in React and Svelte frontend frameworks.
 experience:
   - company: Albertsons Companies
     location: Phoenix, Arizona
@@ -35,7 +35,7 @@ experience:
         description: The technical lead for creating a standardization of a DevOps workflow using automation.
         highlights:
           - Implemented setup and training for developers to move towards using Git and GitHub Enterprise for source control, in order to help manage, track, and document all the current and future code sources.
-          - Created a DevOps workflow using GitHub actions for continuous integration and continuous deployment, which increased the reliablity of production code, and improved deployment time.
+          - Created a DevOps workflow using GitHub actions for continuous integration and continuous deployment, which increased the reliability of production code, and improved deployment time.
           - Mentored junior developers, assisting them in code reviews, training them in coding best practices, and being a resource for brainstorming solutions for their tasks.
       - title: Business Analyst
         startdate: Dec 2015

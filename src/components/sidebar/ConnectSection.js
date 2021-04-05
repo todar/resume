@@ -7,6 +7,7 @@ import locationIcon from "../../assets/map-marker-alt-solid.png";
 import phoneIcon from "../../assets/phone.png";
 import websiteIcon from "../../assets/websiteIcon.png";
 import emailIcon from "../../assets/emailIcon.png";
+import githubIcon from "../../assets/github.png";
 
 const styles = StyleSheet.create({
   iconContainer: {
@@ -32,7 +33,7 @@ const Icon = ({ src }) => (
 
 const ConnectSection = () => {
   const {
-    connectSection: { title, location, phoneNumber, email, website },
+    connectSection: { title, location, phoneNumber, email, website, github },
   } = useContent();
   return (
     <View>
@@ -45,6 +46,8 @@ const ConnectSection = () => {
       <Content>{email}</Content>
       <Icon src={websiteIcon} />
       <Content>{website}</Content>
+      <Icon src={githubIcon} />
+      <Content>{'www.github.com/todar'}</Content>
     </View>
   );
 };
