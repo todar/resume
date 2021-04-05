@@ -5,8 +5,16 @@ import { Text, View, Image, StyleSheet } from "@react-pdf/renderer";
 
 import automationAnywhereLogo from "../../assets/automation-anywhere.png";
 import udemyLogo from "../../assets/udemy.jpg";
+import microsoftLogo from "../../assets/microsoft.png";
 
 const certificates = [
+  {
+    name: "MSUS Cloud Skills Challenge Champion",
+    issuedBy: "Microsoft",
+    issuedDate: "Issued Feb 2021 - No Expiration Date",
+    credentialId: "78677b2b-4495-4324-a84b-eada4e7055f8",
+    logo: microsoftLogo
+  },
   {
     name: "Modern JavaScript From The Beginning",
     issuedBy: "Udemy",
@@ -21,6 +29,7 @@ const certificates = [
     credentialId: "AAADVC-33265922",
     logo: automationAnywhereLogo,
   },
+  
 ];
 
 const styles = StyleSheet.create({

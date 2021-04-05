@@ -25,11 +25,11 @@ const Saguaro = () => (
         professional relationships to help promote the business and maintain
         open lines of communication.
       </ListItem>
-      <ListItem>
+      {/* <ListItem>
         Maintained a high level of quality assurance by inspecting every job
         site in great detail, walking job sites with both repairmen and clients
         listening for feedback and providing assistance where needed.
-      </ListItem>
+      </ListItem> */}
       <ListItem>
         Created a job scheduling application that tracked job site information
         and repairman coverage that better organized the flow chart for all

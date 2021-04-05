@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     height: "8px",
     width: "8px",
     left: 5.5,
-    top: 214,
+    top: 200,
     backgroundColor: "#cfcfcf",
   },
 });
@@ -70,27 +70,16 @@ const Albertsons = () => {
           timeframe={"Aug 2020 – Present"}
         />
         <Article>
-          The lead for creating a standardization of a DevOps workflow using
-          automation.
+        The technical lead for creating a standardization of a DevOps workflow using automation.
         </Article>
         <ListItem>
-          Implementing setup and training to move towards using Git and GitHub
-          Enterprise for source control, in order to help manage, track, and
-          document all the current and future code sources.
+        Implemented setup and training for developers to move towards using Git and GitHub Enterprise for source control, in order to help manage, track, and document all the current and future code sources.
         </ListItem>
         <ListItem>
-          Creating and documenting a DevOps workflow using GitHub actions for
-          continuous integration and continuous deployment. This will include
-          automating the testing, building, and deployment of code.
+        Created a DevOps workflow using GitHub actions for continuous integration and continuous deployment, which increased the reliability of production code, and improved deployment time.
         </ListItem>
         <ListItem>
-          Creating documentation for best practices in writing Python including
-          a thorough guideline for writing unit tests.
-        </ListItem>
-        <ListItem>
-          Performing code review of VBA and Python to ensure coding standards
-          are followed as well as looking for any opportunities for
-          optimizations.
+        Mentored junior developers, assisting them in code reviews, training them in coding best practices, and being a resource for brainstorming solutions for their tasks.
         </ListItem>
       </View>
       <View>
