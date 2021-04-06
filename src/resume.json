@@ -22,7 +22,7 @@
      "VBA",
      "Python"
   ],
-  "about": "An innovative, teachable, problem-solving software developer with over 6 years of experience. Have developed a wide variety of applications and resources including full-stack web applications, automation and analysis using VBA and Python, SQL, and NoSQL. Trained in HTML5, CSS3, JavaScript ES6, and highly specialized in React and Svelte frontend frameworks.",
+  "about": "An innovative, teachable, problem-solving software developer with over 6 years of experience. Have developed a wide variety of applications and resources including full-stack web applications — and automation and analysis tools using VBA, Python, and SQL. Trained in HTML5, CSS3, JavaScript ES6, and highly specialized in React and Svelte frontend frameworks.",
   "experience": [
      {
         "company": "Albertsons Companies",
@@ -35,11 +35,11 @@
               "title": "Digital Workforce Analyst II",
               "startdate": "Aug 2020",
               "enddate": "Present",
-              "description": "The technical lead for creating a standardization of a DevOps workflow using automation.",
+              "description": "The technical lead for creating a DevOps workflow within GitHub, and trainer for junior developers.",
               "highlights": [
-                 "Implemented setup and training for developers to move towards using Git and GitHub Enterprise for source control, in order to help manage, track, and document all the current and future code sources.",
-                 "Created a DevOps workflow using GitHub actions for continuous integration and continuous deployment, which increased the reliability of production code, and improved deployment time.",
-                 "Mentored junior developers, assisting them in code reviews, training them in coding best practices, and being a resource for brainstorming solutions for their tasks."
+                 "Trained junior developers to use Git and GitHub for source control, greatly improving the management and documentation of all previous and future code projects.",
+                 "Created a DevOps workflow for Python using GitHub actions that implemented  continuous integration/continuous deployment, which increased the reliability of production code, and improved deployment time.",
+                 "Mentored junior developers, assisting them with code reviews, training them in coding best practices, and being a resource for brainstorming solutions for their tasks."
               ]
            },
            {
@@ -48,9 +48,9 @@
               "enddate": "Aug 2020",
               "description": "The lead software developer for internal auditing within product allowances.",
               "highlights": [
-                 "Built a fullstack CRUD application that is used as the primary tool for data analysis and process automation. This application has aided in increasing overall audit findings by over 10% and saves over 46,000 labor hours annually.",
+                 "Built a full-stack CRUD application that is used as the primary tool for data analysis and process automation. This application has aided in increasing overall audit findings by over 10% and saves over 46,000 labor hours annually.",
                  "Reviewed a key audit process and identified that a substantial amount of data was being missed by the audit. Implemented new query designs that captured all missing data, resulting in a 60% increase of dollar findings for that audit.",
-                 "Created and maintained a system of writing thorough documentation for the coding style guide, best practices, and all release notes."
+                 "Created and maintained over 30 production SQL queries that are critical to daily business requirements."
               ]
            }
         ]
@@ -66,10 +66,10 @@
               "title": "Superintendent",
               "startdate": 2013,
               "enddate": 2015,
-              "description": "Learned the business from the ground up. Started as a laborer, trained under the lead project manager for over a year, and advanced to becoming the lead superintendent in charge of drywall repairs.",
+              "description": "Learned the business from the ground up. Started as a laborer, trained under the lead project manager for over a year, and advanced to become the lead superintendent in charge of drywall repairs.",
               "highlights": [
                  "Engaged with clients and builders on a frequent basis to build professional relationships to help promote the business and maintain open lines of communication.",
-                 "Created a job scheduling application that tracked job site information and repairman coverage resulting in improved work flow for all upcoming and ongoing projects."
+                 "Created a job scheduling application that tracked job site information and repairman coverage resulting in improved workflow for all upcoming and ongoing projects."
               ]
            }
         ]
