@@ -5,6 +5,7 @@ import ProfileSection from "./ProfileSection";
 import ConnectSection from "./ConnectSection";
 import SkillsSection from "./SkillsSection";
 
+
 const styles = StyleSheet.create({
   sidebar: {
     width: "175px",

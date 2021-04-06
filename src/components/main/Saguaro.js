@@ -2,41 +2,35 @@ import React from "react";
 import { View } from "@react-pdf/renderer";
 import ListItem from "../ListItem";
 import JobHeader from "./JobHeader";
-import saguaroLogo from "../../assets/SaguaroLogo-50x50.PNG";
 import Article from "./Article";
+import content from '../../resume.json'
+const {logo, company, startdate, enddate, positions} = content.experience[1]
+
+const {title, description, highlights} = positions[0]
 
 const Saguaro = () => (
   <View>
     <JobHeader
-      src={saguaroLogo}
-      title="Superintendent"
-      company="Saguaro Drywall"
-      timeframe="2013 - 2015"
+      src={require(`../../assets/${logo}`)}
+      title={title}
+      company={company}
+      timeframe={`${startdate} - ${enddate}`}
     />
     <Article>
-      Learned the business from the ground up, started as a laborer and trained
-      under the lead project manager for over a year and advanced to becoming
-      the lead superintendent in charge of drywall repairs.
+      {description}
     </Article>
 
     <View>
-      <ListItem>
-        Engaged with clients and builders on a frequent basis to build
-        professional relationships to help promote the business and maintain
-        open lines of communication.
-      </ListItem>
-      {/* <ListItem>
-        Maintained a high level of quality assurance by inspecting every job
-        site in great detail, walking job sites with both repairmen and clients
-        listening for feedback and providing assistance where needed.
-      </ListItem> */}
-      <ListItem>
-        Created a job scheduling application that tracked job site information
-        and repairman coverage that better organized the flow chart for all
-        upcoming and ongoing projects.
-      </ListItem>
+      {highlights.map(highlight => (
+        <ListItem>{highlight}</ListItem>
+      ))}
     </View>
   </View>
 );
+
+// Additional Content removed for space.
+// Maintained a high level of quality assurance by inspecting every job
+//         site in great detail, walking job sites with both repairmen and clients
+//         listening for feedback and providing assistance where needed.
 
 export default Saguaro;

@@ -1,7 +1,7 @@
 import React from "react";
-import { useContent } from "../../stores/content";
 import { Text, View, Image, StyleSheet } from "@react-pdf/renderer";
 import Profile from "../../assets/profile-200x200.jpg";
+import content from '../../resume.json'
 
 const styles = StyleSheet.create({
   name: {
@@ -23,14 +23,11 @@ const styles = StyleSheet.create({
 });
 
 const ProfileSection = () => {
-  const {
-    profileSection: { name, title },
-  } = useContent();
   return (
     <View>
       <Image style={styles.profileImage} src={Profile} alt="Profile" />
-      <Text style={styles.name}>{name}</Text>
-      <Text style={styles.title}>{title}</Text>
+      <Text style={styles.name}>{content.name}</Text>
+      <Text style={styles.title}>{content.title}</Text>
     </View>
   );
 };

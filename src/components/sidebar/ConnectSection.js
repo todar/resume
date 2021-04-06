@@ -2,12 +2,13 @@ import React from "react";
 import { View, Image, StyleSheet } from "@react-pdf/renderer";
 import SectionTitle from "./SectionTitle";
 import Content from "./Content";
-import { useContent } from "../../stores/content";
 import locationIcon from "../../assets/map-marker-alt-solid.png";
 import phoneIcon from "../../assets/phone.png";
 import websiteIcon from "../../assets/websiteIcon.png";
 import emailIcon from "../../assets/emailIcon.png";
 import githubIcon from "../../assets/github.png";
+import content from '../../resume.json'
+
 
 const styles = StyleSheet.create({
   iconContainer: {
@@ -32,22 +33,19 @@ const Icon = ({ src }) => (
 );
 
 const ConnectSection = () => {
-  const {
-    connectSection: { title, location, phoneNumber, email, website, github },
-  } = useContent();
   return (
     <View>
-      <SectionTitle>{title}</SectionTitle>
+      <SectionTitle>{content.titles.connect}</SectionTitle>
       <Icon src={locationIcon} />
-      <Content>{location}</Content>
+      <Content>{content.location}</Content>
       <Icon src={phoneIcon} />
-      <Content>{phoneNumber}</Content>
+      <Content>{content.phone}</Content>
       <Icon src={emailIcon} />
-      <Content>{email}</Content>
+      <Content>{content.email}</Content>
       <Icon src={websiteIcon} />
-      <Content>{website}</Content>
+      <Content>{content.website}</Content>
       <Icon src={githubIcon} />
-      <Content>{'www.github.com/todar'}</Content>
+      <Content>{content.github}</Content>
     </View>
   );
 };

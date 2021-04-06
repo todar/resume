@@ -1,17 +1,14 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import Content from "./Content";
-import { useContent } from "../../stores/content";
 import { View } from "@react-pdf/renderer";
+import content from '../../resume.json'
 
 const SkillsSection = () => {
-  const {
-    skillsSection: { title, skills },
-  } = useContent();
   return (
     <View>
-      <SectionTitle>{title}</SectionTitle>
-      {skills.map((skill) => (
+      <SectionTitle>{content.titles.skills}</SectionTitle>
+      {content.skills.map((skill) => (
         <Content key={skill}>{skill}</Content>
       ))}
     </View>

@@ -12,7 +12,7 @@ import Article from "./Article";
 import SectionTitle from "./SectionTitle";
 
 import Certifications from "./Certifications";
-import { useContent } from "../../stores/content";
+import content from '../../resume.json'
 
 /**
  * Yikes, a bit a a mess!😞
@@ -64,57 +64,29 @@ const styles = StyleSheet.create({
 });
 
 const About = () => {
-  const { aboutSection: { title, content } } = useContent();
   return (
     <View>
-      <SectionTitle title={title} icon={about} />
+      <SectionTitle title={content.titles.about} icon={about} />
       <Article>
-        {content}
+        {content.about}
       </Article>
     </View>
   );
 };
 
 const WorkExperince = () => {
-  const { workExperience: { title } } = useContent();
   return (
     <View>
-      <SectionTitle title={title} icon={jobs} />
+      <SectionTitle title={content.titles.experience} icon={jobs} />
       <Albertsons />
       <Saguaro />
     </View>
   );
 };
 
-// const Accomplishments = () => (
-//   <View>
-//     <View style={styles.titleGroup}>
-//       <Image style={styles.logo} src={accomplishment} alt="" />
-//       <Text style={styles.mainTitle}>Accomplishments</Text>
-//     </View>
-//     <ListItem>
-//       Created a full software application within VBA that has custom-built:
-//     </ListItem>
-//     <NestedListItem>version control</NestedListItem>
-//     <NestedListItem>distribution system</NestedListItem>
-//     <NestedListItem>user analytics</NestedListItem>
-//     <NestedListItem>event logging</NestedListItem>
-//     <NestedListItem>data caching</NestedListItem>
-//     <NestedListItem>
-//       and full CRUD capabilities to multiple data sources
-//     </NestedListItem>
-//     <ListItem>
-//       Major contributor in increasing allowance audit findings by millions of
-//       dollars each year.
-//     </ListItem>
-//     <ListItem>
-//       Certified in Robotic Process Automation through Automation Anywhere.
-//     </ListItem>
-//   </View>
-// );
 
 const CreateWithNote = () => (
-  <Text style={styles.CreateWithNote}>*This resume was made using React</Text>
+  <Text style={styles.CreateWithNote}>{content.createdNote}</Text>
 );
 
 const Main = () => (
