@@ -60,6 +60,11 @@ experience:
         - Maintained a high level of quality assurance by closely inspecting each job site as well as walking job sites with both repairmen and clients while listening for feedback and providing assistance where needed.
         - Created a job scheduling application that tracked job site information and repairman coverage resulting in improved work flow for all upcoming and ongoing projects.
 certifications:
+  - name: MSUS Cloud Skills Challenge Champion
+    issuer: Microsoft
+    issued: Feb 2021
+    expires: No Expiration Date
+    credential: 78677b2b-4495-4324-a84b-eada4e7055f8
   - name: Modern JavaScript From The Beginning
     issuer: Udemy
     issued: Jul 2020
