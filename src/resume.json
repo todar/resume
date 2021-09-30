@@ -8,21 +8,25 @@
   "github": "www.github.com/todar",
   "linkedin": "www.linkedin.com/in/robert-todar/",
   "skills": [
-     "JavaScript ES6+",
-     "React.js",
-     "Svelte.js",
-     "Rollup.js",
-     "HTML5",
-     "CSS3",
-     "Github",
-     "Git",
-     "npm",
-     "Firebase",
-     "SQL",
-     "VBA",
-     "Python"
+    "Advanced VBA",
+    "SQL — DB2, Oracle",
+    "Python",
+    "JavaScript ES6+",
+    "React.js",
+    "NodeJS",
+    "HTML5",
+    "CSS3",
+    "Git",
+    "REST API",
+    "JSON",
+    "Github",
+    "Microsoft Sharepoint",
+    "Microsoft Power Automate",
+    "Microsoft Power BI",
+    "Advanced Microsoft Excel",
+    "Data Analytics"
   ],
-  "about": "An innovative, teachable, problem-solving software developer with over 6 years of experience. Have developed a wide variety of applications and resources including full-stack web applications — and automation and analysis tools using VBA, Python, and SQL. Trained in HTML5, CSS3, JavaScript ES6, and highly specialized in React and Svelte frontend frameworks.",
+  "about": "An innovative, teachable, problem-solving software developer with over six years of experience. Have developed applications, tools, and reports that automate inefficient processes and increase insights and analysis into large data sets. Skilled in analyzing data and business processes — then implementing solutions that maximize effectiveness while maintaining data integrity. Highly knowledgeable and experienced with various tools and software languages, aiding in applying the best tool for each project.",
   "experience": [
      {
         "company": "Albertsons Companies",
@@ -35,9 +39,10 @@
               "title": "Digital Workforce Analyst II",
               "startdate": "Aug 2020",
               "enddate": "Present",
-              "description": "The technical lead for creating a DevOps workflow within GitHub, and trainer for junior developers.",
+              "description": "A technical lead used primarily for aiding in Albertsons migration to Oracle Cloud Financials platform.",
               "highlights": [
-                 "Trained junior developers to use Git and GitHub for source control, greatly improving the management and documentation of all previous and future code projects.",
+                 "Designed key SQL reports in Oracle Cloud Financials that are used for tracking data integrity through the migration process.",
+                 "Developed a Microsoft Power Automate flow that is used to do mass updates to invoice records within Oracle — using Oracle's REST API services.",
                  "Created a DevOps workflow for Python using GitHub actions that implemented  continuous integration/continuous deployment, which increased the reliability of production code, and improved deployment time.",
                  "Mentored junior developers, assisting them with code reviews, training them in coding best practices, and being a resource for brainstorming solutions for their tasks."
               ]
@@ -49,7 +54,7 @@
               "description": "The lead software developer for internal auditing within product allowances.",
               "highlights": [
                  "Built a full-stack CRUD application that is used as the primary tool for data analysis and process automation. This application has aided in increasing overall audit findings by over 10% and saves over 46,000 labor hours annually.",
-                 "Reviewed a key audit process and identified that a substantial amount of data was being missed by the audit. Implemented new query designs that captured all missing data, resulting in a 60% increase of dollar findings for that audit.",
+                 "Reviewed a key audit process and identified that a substantial amount of data was being missed by the audit. Implemented new SQL query designs that captured all missing data, resulting in a 60% increase of dollar findings for that audit.",
                  "Created and maintained over 30 production SQL queries that are critical to daily business requirements."
               ]
            }
@@ -68,7 +73,6 @@
               "enddate": 2015,
               "description": "Learned the business from the ground up. Started as a laborer, trained under the lead project manager for over a year, and advanced to become the lead superintendent in charge of drywall repairs.",
               "highlights": [
-                 "Engaged with clients and builders on a frequent basis to build professional relationships to help promote the business and maintain open lines of communication.",
                  "Created a job scheduling application that tracked job site information and repairman coverage resulting in improved workflow for all upcoming and ongoing projects."
               ]
            }
@@ -103,7 +107,7 @@
   ],
   "titles": {
     "connect": "Connect",
-    "skills": "Software Skills",
+    "skills": "Skills",
     "about": "About",
     "experience": "Work Experience",
     "education": "Certifications"

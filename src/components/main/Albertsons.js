@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
   },
   timeline: {
     position: "absolute",
-    height: 155,
+    height: 180,
     width: "1px",
     left: 9,
     top: 48,
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     height: "8px",
     width: "8px",
     left: 5.5,
-    top: 200,
+    top: 225,
     backgroundColor: "#cfcfcf",
   },
 });

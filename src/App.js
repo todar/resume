@@ -54,7 +54,7 @@ const App = () => (
     <PDFViewer style={styles.viewer}>
       <Resume />
     </PDFViewer>
-    <PDFDownloadLink document={<Resume />} fileName="resume.pdf">
+    <PDFDownloadLink document={<Resume />} fileName="Robert Todar - Resume.pdf">
       {(
         { blob, url, loading, error },
       ) => (loading ? "Loading document..." : <Button>Download</Button>)}

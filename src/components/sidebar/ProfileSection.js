@@ -16,8 +16,8 @@ const styles = StyleSheet.create({
   },
   profileImage: {
     borderRadius: "500",
-    width: "130px",
-    height: "130px",
+    width: "110px",
+    height: "110px",
     margin: "auto",
   },
 });
