@@ -38,7 +38,7 @@ const Certificate = ({ name, issuedBy, issuedDate, expires, credentialId, logo }
 
 const Certifications = () => (
   <View>
-    <SectionTitle icon={certLogo} title="Certifications" />
+    <SectionTitle icon={certLogo} title={content.titles.education} />
     {content.certifications.map(({ name, issuer, issued, expires, credential, logo }) => (
       <Certificate
         key={name}

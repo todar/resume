@@ -79,7 +79,7 @@ const WorkExperince = () => {
     <View>
       <SectionTitle title={content.titles.experience} icon={jobs} />
       <Albertsons />
-      <Saguaro />
+      {/* <Saguaro /> */}
     </View>
   );
 };

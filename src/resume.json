@@ -10,17 +10,17 @@
   "skills": [
     "Advanced VBA",
     "SQL — DB2, Oracle",
-    "Python",
     "JavaScript ES6+",
-    "React.js",
     "NodeJS",
+    "Basic Python",
+    "React.js",
     "HTML5",
     "CSS3",
     "Git",
     "REST API",
     "JSON",
-    "Github",
-    "Microsoft Sharepoint",
+    "GitHub",
+    "Microsoft SharePoint",
     "Microsoft Power Automate",
     "Microsoft Power BI",
     "Advanced Microsoft Excel",
@@ -41,9 +41,9 @@
               "enddate": "Present",
               "description": "A technical lead used primarily for aiding in Albertsons migration to Oracle Cloud Financials platform.",
               "highlights": [
-                 "Designed key SQL reports in Oracle Cloud Financials that are used for tracking data integrity through the migration process.",
-                 "Developed a Microsoft Power Automate flow that is used to do mass updates to invoice records within Oracle — using Oracle's REST API services.",
-                 "Created a DevOps workflow for Python using GitHub actions that implemented  continuous integration/continuous deployment, which increased the reliability of production code, and improved deployment time.",
+                "Developed a NodeJS script that makes a series of asynchronous Oracle API calls for duplicating purchase order lines and creating change orders. In it's limited use it has already saved over 300 labor hours.",
+                 "Designed critical SQL reports in Oracle Cloud Financials that are used for tracking data integrity through the migration process.",
+                 "Implemented a Microsoft Power Automate flow that is used for making mass updates to invoice records within Oracle — using Oracle's REST API services. This process is expected to save around 1,000 hours annually.",
                  "Mentored junior developers, assisting them with code reviews, training them in coding best practices, and being a resource for brainstorming solutions for their tasks."
               ]
            },
@@ -55,7 +55,7 @@
               "highlights": [
                  "Built a full-stack CRUD application that is used as the primary tool for data analysis and process automation. This application has aided in increasing overall audit findings by over 10% and saves over 46,000 labor hours annually.",
                  "Reviewed a key audit process and identified that a substantial amount of data was being missed by the audit. Implemented new SQL query designs that captured all missing data, resulting in a 60% increase of dollar findings for that audit.",
-                 "Created and maintained over 30 production SQL queries that are critical to daily business requirements."
+                 "Created and maintained over 70 production SQL queries that are critical to daily business requirements."
               ]
            }
         ]
@@ -80,30 +80,38 @@
      }
   ],
   "certifications": [
-     {
-        "name": "MSUS Cloud Skills Challenge Champion",
-        "issuer": "Microsoft",
-        "issued": "Feb 2021",
-        "expires": "No Expiration Date",
-        "credential": "78677b2b-4495-4324-a84b-eada4e7055f8",
-        "logo": "microsoft.png"
-     },
-     {
-        "name": "Modern JavaScript From The Beginning",
-        "issuer": "Udemy",
-        "issued": "Jul 2020",
-        "expires": "No Expiration Date",
-        "credential": "UC-428969d4-ac6c-4d87-a29a-04f860fe3aff",
-        "logo": "udemy.jpg"
-     },
-     {
-        "name": "Advanced RPA professional",
-        "issuer": "Automation Anywhere",
-        "issued": "Jul 2018",
-        "expires": "No Expiration Date",
-        "credential": "AAADVC-33265922",
-        "logo": "automation-anywhere.png"
-     }
+    {
+      "name": "Google Data Analytics Professional Certificate",
+      "issuer": "Coursera",
+      "issued": "Nov 2021",
+      "expires": "No Expiration Date",
+      "credential": "Q2ZBC9FGXXKG",
+      "logo": "google.png"
+    },
+    {
+      "name": "MSUS Cloud Skills Challenge Champion",
+      "issuer": "Microsoft",
+      "issued": "Feb 2021",
+      "expires": "No Expiration Date",
+      "credential": "78677b2b-4495-4324-a84b-eada4e7055f8",
+      "logo": "microsoft.png"
+    },
+    {
+      "name": "Modern JavaScript From The Beginning",
+      "issuer": "Udemy",
+      "issued": "Jul 2020",
+      "expires": "No Expiration Date",
+      "credential": "UC-428969d4-ac6c-4d87-a29a-04f860fe3aff",
+      "logo": "udemy.jpg"
+    },
+    {
+      "name": "Advanced RPA professional",
+      "issuer": "Automation Anywhere",
+      "issued": "Jul 2018",
+      "expires": "No Expiration Date",
+      "credential": "AAADVC-33265922",
+      "logo": "automation-anywhere.png"
+    }
   ],
   "titles": {
     "connect": "Connect",

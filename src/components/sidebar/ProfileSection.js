@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, Image, StyleSheet } from "@react-pdf/renderer";
-import Profile from "../../assets/profile-200x200.jpg";
+import Profile from "../../assets/profile-new.jpg";
 import content from '../../resume.json'
 
 const styles = StyleSheet.create({
@@ -16,9 +16,10 @@ const styles = StyleSheet.create({
   },
   profileImage: {
     borderRadius: "500",
-    width: "110px",
+    // width: "110px",
     height: "110px",
     margin: "auto",
+    maxWidth: "100%",
   },
 });
 
