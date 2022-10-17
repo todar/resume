@@ -6,6 +6,7 @@ import about from "../../assets/About.png";
 
 import Divider from "../Divider";
 import Albertsons from "./Albertsons";
+import EdwardJones from "./EdwardJones";
 import Saguaro from "./Saguaro";
 import Article from "./Article";
 
@@ -21,7 +22,7 @@ import content from '../../resume.json'
  */
 const styles = StyleSheet.create({
   main: {
-    padding: "18px 18px 18px 18px",
+    padding: "10px 10px 10px 18px",
     flexBasis: "400px",
     color: "#333",
   },
@@ -46,7 +47,7 @@ const styles = StyleSheet.create({
     fontSize: 8,
     position: "absolute",
     bottom: "18px",
-    right: "18px",
+    right: "5px",
     color: "#70757a",
     fontStyle: "italic",
   },
@@ -78,6 +79,7 @@ const WorkExperince = () => {
   return (
     <View>
       <SectionTitle title={content.titles.experience} icon={jobs} />
+      <EdwardJones />
       <Albertsons />
       {/* <Saguaro /> */}
     </View>

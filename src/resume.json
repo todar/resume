@@ -12,13 +12,13 @@
     "SQL — DB2, Oracle",
     "JavaScript ES6+",
     "NodeJS",
-    "Basic Python",
+    "Python",
+    "Pandas",
     "React.js",
     "HTML5",
     "CSS3",
     "Git",
     "REST API",
-    "JSON",
     "GitHub",
     "Microsoft SharePoint",
     "Microsoft Power Automate",
@@ -26,19 +26,39 @@
     "Advanced Microsoft Excel",
     "Data Analytics"
   ],
-  "about": "An innovative, teachable, problem-solving software developer with over six years of experience. Have developed applications, tools, and reports that automate inefficient processes and increase insights and analysis into large data sets. Skilled in analyzing data and business processes — then implementing solutions that maximize effectiveness while maintaining data integrity. Highly knowledgeable and experienced with various tools and software languages, aiding in applying the best tool for each project.",
+  "about": "An innovative, teachable, problem-solving software developer with over seven years of experience. Have developed applications, tools, and reports that automate inefficient processes and increase insights and analysis into large data sets. Skilled in analyzing data and business processes — then implementing solutions that maximize effectiveness while maintaining data integrity.",
   "experience": [
+    {
+      "company": "Edward Jones",
+      "logo": "edwardjones.jpg",
+      "location": "Remote",
+      "startdate": "Dec 2021",
+      "enddate": "Present",
+      "positions": [
+         {
+            "title": "Report and Tool Developer",
+            "startdate": "Dec 2021",
+            "enddate": "Present",
+            "description": "",
+            "highlights": [
+              "Successfully developed a variable annuity sub-account quantitative monitoring tool. This tool covers over 50 billion in assets under care, and has helped ensure products offered to clients align with Edward Jones investment philosophy.",
+              "Developed a report that monitors municipal bonds and flags issuers when any CUSIP falls below the issuers Moody's rating code. This tool is expected to cover around 30 billion in assets under care.",
+              "Created a strategic plan for using the correct tools for data analysis. This included moving data from Excel files to a database, using python and pandas for data extraction and transformation, and using Power BI for real time dashboards. Previously, all this work was being done with Excel and VBA."
+            ]
+          }
+      ]
+    },
      {
         "company": "Albertsons Companies",
         "logo": "Albertsons-50x50.png",
         "location": "Phoenix, Arizona",
         "startdate": "Dec 2015",
-        "enddate": "Present",
+        "enddate": "Dec 2021",
         "positions": [
            {
               "title": "Digital Workforce Analyst II",
               "startdate": "Aug 2020",
-              "enddate": "Present",
+              "enddate": "Dec 2021",
               "description": "A technical lead used primarily for aiding in Albertsons migration to Oracle Cloud Financials platform.",
               "highlights": [
                 "Developed a NodeJS script that makes a series of asynchronous Oracle API calls for duplicating purchase order lines and creating change orders. In it's limited use it has already saved over 300 labor hours.",
@@ -97,14 +117,6 @@
       "logo": "microsoft.png"
     },
     {
-      "name": "Modern JavaScript From The Beginning",
-      "issuer": "Udemy",
-      "issued": "Jul 2020",
-      "expires": "No Expiration Date",
-      "credential": "UC-428969d4-ac6c-4d87-a29a-04f860fe3aff",
-      "logo": "udemy.jpg"
-    },
-    {
       "name": "Advanced RPA professional",
       "issuer": "Automation Anywhere",
       "issued": "Jul 2018",
@@ -120,5 +132,5 @@
     "experience": "Work Experience",
     "education": "Certifications"
   },
-  "createdNote": "*This resume was made using React"
+  "createdNote": "*This resume was custom made using React"
 }

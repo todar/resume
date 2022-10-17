@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     fontSize: 9,
     fontWeight: "light",
     color: "#333",
-    lineHeight: 1.3,
+    lineHeight: 1.2,
     whiteSpace: "pre-wrap",
   },
 });

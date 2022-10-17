@@ -8,7 +8,7 @@ import SkillsSection from "./SkillsSection";
 
 const styles = StyleSheet.create({
   sidebar: {
-    width: "175px",
+    width: "165px",
     backgroundColor: "#202124",
     color: "#9aa0a6",
     padding: "15px",

@@ -3,13 +3,13 @@ import { Text, View, Image, StyleSheet } from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
   mainTitle: {
-    fontSize: 15,
+    fontSize: 14,
     color: "#2a2b2e",
   },
   titleGroup: {
     flexDirection: "row",
     alignItems: "center",
-    marginBottom: 8,
+    marginBottom: 4,
   },
   logo: {
     width: "20px",

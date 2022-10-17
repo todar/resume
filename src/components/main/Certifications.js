@@ -13,8 +13,8 @@ const styles = StyleSheet.create({
     fontSize: 9,
     fontWeight: "light",
     color: "#333",
-    lineHeight: 1.3,
-    marginBottom: 8,
+    lineHeight: 1.2,
+    marginBottom: 6,
     whiteSpace: "pre-wrap",
   },
   logo: {

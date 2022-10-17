@@ -5,7 +5,7 @@ import JobHeader from "./JobHeader";
 import PositionTitle from "./PositionTitle";
 import Article from "./Article";
 import content from '../../resume.json'
-const {logo, company, startdate, enddate, positions} = content.experience[1]
+const {logo, company, startdate, enddate, positions} = content.experience[0]
 
 const styles = StyleSheet.create({
   content: {
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const Albertsons = () => {
+const EdwardJones = () => {
   return (
     <View>
       <View>
@@ -56,16 +56,16 @@ const Albertsons = () => {
           company={company}
           timeframe={`${startdate} - ${enddate}`}
         />
-        <View style={styles.timelineDot1} />
+        {/* <View style={styles.timelineDot1} />
         <View style={styles.timeline} />
-        <View style={styles.timelineDot2} />
+        <View style={styles.timelineDot2} /> */}
       </View>
 
         {positions.map(position => (
           <View style={styles.jobPosition}>
             <PositionTitle
               title={position.title}
-              timeframe={`${position.startdate} - ${position.enddate}`}
+              // timeframe={`${position.startdate} - ${position.enddate}`}
             />
             <Article>
               {position.description}
@@ -80,4 +80,4 @@ const Albertsons = () => {
   );
 };
 
-export default Albertsons;
+export default EdwardJones;
